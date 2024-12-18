@@ -1,0 +1,1670 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 300vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="users-container">
+        <div class="users-users">
+          <div class="users-background1">
+            <img
+              src="public/external/rectangle81293-xdei-1300h.png"
+              alt="Rectangle81293"
+              class="users-rectangle8"
+            />
+            <img
+              src="public/external/rectangle101293-urb-2000w.png"
+              alt="Rectangle101293"
+              class="users-rectangle10"
+            />
+            <img
+              src="public/external/wp964993011293-w0p-2100h.png"
+              alt="wp964993011293"
+              class="users-wp96499301"
+            />
+          </div>
+          <div class="users-group1000005147">
+            <div class="users-frame-input-with-addons">
+              <div class="users-autoaddedframe">
+                <div class="users-addon">
+                  <img
+                    src="public/external/icon1293-gjuk.svg"
+                    alt="Icon1293"
+                    class="users-icon1"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="users-group1000005146">
+              <img
+                src="public/external/ioniconppersondefault1293-gar6.svg"
+                alt="IONIconPpersondefault1293"
+                class="users-ion-icon-ppersondefault"
+              />
+              <span class="users-text10">Account</span>
+            </div>
+            <img
+              src="public/external/ioniconssettingssharp1293-4bhk.svg"
+              alt="IONIconSsettingssharp1293"
+              class="users-ion-icon-ssettingssharp"
+            />
+            <img
+              src="public/external/ioniconnnotificationsdefault1293-hqz8.svg"
+              alt="IONIconNnotificationsdefault1293"
+              class="users-ion-icon-nnotificationsdefault"
+            />
+          </div>
+          <div class="users-text11">
+            <span class="users-text12">Dashboard</span>
+            <div class="users-breadcrumb-item-previous">
+              <span class="users-text13">
+                <span class="users-text14">Pages</span>
+                <span>/ Dashboard</span>
+              </span>
+            </div>
+          </div>
+          <div class="users-sidebar">
+            <div class="users-need-help">
+              <div class="users-group2">
+                <div class="users-background2">
+                  <img
+                    src="public/external/rectangle61293-w7le-300w.png"
+                    alt="Rectangle61293"
+                    class="users-rectangle6"
+                  />
+                  <img
+                    src="public/external/richardhorvathnwaetf6qo0unsplash11293-4dem-500w.png"
+                    alt="richardhorvathnWaeTF6qo0unsplash11293"
+                    class="users-richardhorvathn-wae-tf6qo0unsplash1"
+                  />
+                </div>
+                <button class="users-frame-button-base">
+                  <div class="users-width-structure">
+                    <div class="users-height-structure"></div>
+                  </div>
+                </button>
+                <button class="users-button-body">
+                  <span class="users-text16">SUPPORT 24x7</span>
+                </button>
+              </div>
+              <div class="users-frame-min-width">
+                <img
+                  src="public/external/content1293-p1z-200h.png"
+                  alt="Content1293"
+                  class="users-content"
+                />
+              </div>
+            </div>
+
+            <div class="users-text17">
+              <span class="users-text18">Contact</span>
+              <span class="users-text19">Need help?</span>
+            </div>
+            <div class="users-icon2">
+              <img
+                src="public/external/ioniconhhelpcircle1293-9xwh.svg"
+                alt="IONIconHhelpcircle1293"
+                class="users-ion-icon-hhelpcircle"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="users-logo">
+          <img
+            src="public/external/logo260x7511293-ozt-200h.png"
+            alt="logo260x7511293"
+            class="users-logo260x751"
+          />
+        </div>
+        <img
+          src="public/external/vector61293-7e4b.svg"
+          alt="Vector61293"
+          class="users-vector6"
+        />
+        <div class="users-group1000005221">
+          <div class="users-sidebar-items">
+            <img
+              src="public/external/linkbackground1293-d8i4-200h.png"
+              alt="LinkBackground1293"
+              class="users-link-background1"
+            />
+            <span class="users-text20">Users</span>
+          </div>
+          <div class="users-component5">
+            <img
+              src="public/external/linkbackground1293-iwn8-200h.png"
+              alt="LinkBackground1293"
+              class="users-link-background2"
+            />
+            <span class="users-text21">Subscription</span>
+          </div>
+          <div class="users-group1000005208">
+            <div class="users-group1000005215">
+              <img
+                src="public/external/ioniconsstatschart1293-1a0b.svg"
+                alt="IONIconSstatschart1293"
+                class="users-ion-icon-sstatschart"
+              />
+            </div>
+            <span class="users-text22">Analytics</span>
+          </div>
+          <div class="users-group1000005218">
+            <div class="users-group1000005213">
+              <img
+                src="public/external/dashboard111293-h5392-200w.png"
+                alt="dashboard111293"
+                class="users-dashboard11"
+              />
+            </div>
+            <span class="users-text23">Dashboard</span>
+          </div>
+          <div class="users-group1000005214">
+            <div class="users-group1000005210">
+              <img
+                src="public/external/ioniconbbuilddefault1293-3xo9.svg"
+                alt="IONIconBbuilddefault1293"
+                class="users-ion-icon-bbuilddefault"
+              />
+            </div>
+            <span class="users-text24">Settings</span>
+            <div class="users-line-rounded-chevron-down1">
+              <div class="users-chevron1">
+                <img
+                  src="public/external/vectori129-a4c4.svg"
+                  alt="VectorI129"
+                  class="users-vector1"
+                />
+              </div>
+            </div>
+          </div>
+          <span class="users-text25">Cameras</span>
+          <img
+            src="public/external/polygon11293-ldd.svg"
+            alt="Polygon11293"
+            class="users-polygon1"
+          />
+        </div>
+      </div>
+      <div class="users-group1000005193">
+        <img
+          src="public/external/rectangle59161293-m55o-200h.png"
+          alt="Rectangle59161293"
+          class="users-rectangle5916"
+        />
+        <img
+          src="public/external/rectangle59231293-ip0j-200h.png"
+          alt="Rectangle59231293"
+          class="users-rectangle5923"
+        />
+        <img
+          src="public/external/rectangle59241293-t9xm-200h.png"
+          alt="Rectangle59241293"
+          class="users-rectangle5924"
+        />
+        <img
+          src="public/external/rectangle59251293-c3kk-200h.png"
+          alt="Rectangle59251293"
+          class="users-rectangle5925"
+        />
+        <img
+          src="public/external/rectangle59271293-gdg-200h.png"
+          alt="Rectangle59271293"
+          class="users-rectangle5927"
+        />
+        <img
+          src="public/external/rectangle59261293-pbpb-200h.png"
+          alt="Rectangle59261293"
+          class="users-rectangle5926"
+        />
+        <img
+          src="public/external/line241293-59w.svg"
+          alt="Line241293"
+          class="users-line24"
+        />
+        <div class="users-group1000005192">
+          <div class="users-group1000005083">
+            <div class="users-line-rounded-less">
+              <div class="users-less">
+                <img
+                  src="public/external/vectori129-3ufg.svg"
+                  alt="VectorI129"
+                  class="users-vector2"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="users-checkbox10">
+            <div class="users-group10000045681">
+              <img
+                src="public/external/lineroundedchecki129-99or.svg"
+                alt="LineRoundedCheckI129"
+                class="users-line-rounded-check1"
+              />
+            </div>
+          </div>
+          <div class="users-checkbox11">
+            <img
+              src="public/external/rectangle5912i129-umqo-200h.png"
+              alt="Rectangle5912I129"
+              class="users-rectangle59121"
+            />
+          </div>
+          <div class="users-checkbox12">
+            <div class="users-group10000045682">
+              <img
+                src="public/external/lineroundedchecki129-0fx.svg"
+                alt="LineRoundedCheckI129"
+                class="users-line-rounded-check2"
+              />
+            </div>
+          </div>
+          <div class="users-checkbox13">
+            <img
+              src="public/external/rectangle5912i129-82x8j-200h.png"
+              alt="Rectangle5912I129"
+              class="users-rectangle59122"
+            />
+          </div>
+          <div class="users-checkbox14">
+            <div class="users-group10000045683">
+              <img
+                src="public/external/lineroundedchecki129-m9ql.svg"
+                alt="LineRoundedCheckI129"
+                class="users-line-rounded-check3"
+              />
+            </div>
+          </div>
+          <div class="users-checkbox15">
+            <img
+              src="public/external/rectangle5912i129-0r89-200h.png"
+              alt="Rectangle5912I129"
+              class="users-rectangle59123"
+            />
+          </div>
+          <div class="users-checkbox16">
+            <div class="users-group10000045684">
+              <img
+                src="public/external/lineroundedchecki129-lms.svg"
+                alt="LineRoundedCheckI129"
+                class="users-line-rounded-check4"
+              />
+            </div>
+          </div>
+          <div class="users-checkbox17">
+            <img
+              src="public/external/rectangle5912i129-41n2-200h.png"
+              alt="Rectangle5912I129"
+              class="users-rectangle59124"
+            />
+          </div>
+          <div class="users-checkbox18">
+            <img
+              src="public/external/rectangle5912i129-z6th-200h.png"
+              alt="Rectangle5912I129"
+              class="users-rectangle59125"
+            />
+          </div>
+          <div class="users-checkbox19">
+            <img
+              src="public/external/rectangle5912i129-sujs-200h.png"
+              alt="Rectangle5912I129"
+              class="users-rectangle59126"
+            />
+          </div>
+          <div class="users-checkbox20">
+            <img
+              src="public/external/rectangle5912i129-cm57-200h.png"
+              alt="Rectangle5912I129"
+              class="users-rectangle59127"
+            />
+          </div>
+        </div>
+        <div class="users-group1000005189">
+          <div class="users-group1000005148">
+            <div class="users-master-link1">
+              <div class="users-frame10000046521">
+                <img
+                  src="public/external/icroundemail1293-t5a.svg"
+                  alt="icroundemail1293"
+                  class="users-icroundemail"
+                />
+                <span class="users-text26">EMAIL</span>
+              </div>
+            </div>
+            <div class="users-group10000046511">
+              <img
+                src="public/external/lineroundedchevronright1293-woni.svg"
+                alt="LineRoundedChevronRight1293"
+                class="users-line-rounded-chevron-right1"
+              />
+              <img
+                src="public/external/lineroundedchevronright1293-7mxq.svg"
+                alt="LineRoundedChevronRight1293"
+                class="users-line-rounded-chevron-right2"
+              />
+            </div>
+          </div>
+          <span class="users-text27">michaelp@benchmarkdata.ca</span>
+          <span class="users-text28">michaelp@benchmarkdata.ca</span>
+          <span class="users-text29">michaelp@benchmarkdata.ca</span>
+          <span class="users-text30">michaelp@benchmarkdata.ca</span>
+          <span class="users-text31">michaelp@benchmarkdata.ca</span>
+          <span class="users-text32">michaelp@benchmarkdata.ca</span>
+          <span class="users-text33">michaelp@benchmarkdata.ca</span>
+          <span class="users-text34">michaelp@benchmarkdata.ca</span>
+          <span class="users-text35">michaelp@benchmarkdata.ca</span>
+          <span class="users-text36">michaelp@benchmarkdata.ca</span>
+          <span class="users-text37">michaelp@benchmarkdata.ca</span>
+        </div>
+        <div class="users-group1000005191">
+          <div class="users-master-link2">
+            <div class="users-frame10000046522">
+              <div class="users-custome-icon-users-icon1">
+                <div class="users-group10000044511">
+                  <img
+                    src="public/external/rectangle5911i129-q7xj-200h.png"
+                    alt="Rectangle5911I129"
+                    class="users-rectangle59111"
+                  />
+                  <img
+                    src="public/external/vectori129-3nh.svg"
+                    alt="VectorI129"
+                    class="users-vector3"
+                  />
+                </div>
+              </div>
+              <span class="users-text38">ID</span>
+            </div>
+            <div class="users-group10000046512">
+              <img
+                src="public/external/lineroundedchevronrighti129-wdz7.svg"
+                alt="LineRoundedChevronRightI129"
+                class="users-line-rounded-chevron-right3"
+              />
+              <img
+                src="public/external/lineroundedchevronrighti129-1ef2.svg"
+                alt="LineRoundedChevronRightI129"
+                class="users-line-rounded-chevron-right4"
+              />
+            </div>
+          </div>
+          <span class="users-text39">225388</span>
+          <span class="users-text40">225388</span>
+          <span class="users-text41">225388</span>
+          <span class="users-text42">225388</span>
+          <span class="users-text43">225388</span>
+          <span class="users-text44">225388</span>
+          <span class="users-text45">225388</span>
+          <span class="users-text46">225388</span>
+          <span class="users-text47">225388</span>
+          <span class="users-text48">225388</span>
+          <span class="users-text49">225388</span>
+        </div>
+        <div class="users-group1000005188">
+          <div class="users-master-link3">
+            <div class="users-frame10000046523">
+              <img
+                src="public/external/customeiconshoppingbagiconi129-sada.svg"
+                alt="CustomeIconShoppingBagIconI129"
+                class="users-custome-icon-shopping-bag-icon"
+              />
+              <span class="users-text50">Permission</span>
+            </div>
+          </div>
+          <span class="users-text51">Admin</span>
+          <span class="users-text52">Admin</span>
+          <span class="users-text53">Admin</span>
+          <span class="users-text54">Admin</span>
+          <span class="users-text55">Admin</span>
+          <span class="users-text56">Admin</span>
+          <span class="users-text57">Admin</span>
+          <span class="users-text58">Admin</span>
+          <span class="users-text59">Admin</span>
+          <span class="users-text60">Admin</span>
+          <span class="users-text61">Admin</span>
+        </div>
+        <div class="users-group1000005190">
+          <div class="users-master-link4">
+            <div class="users-frame10000046524">
+              <div class="users-custome-icon-users-icon2">
+                <div class="users-group10000044512">
+                  <img
+                    src="public/external/rectangle5911i129-nwnc-200h.png"
+                    alt="Rectangle5911I129"
+                    class="users-rectangle59112"
+                  />
+                  <img
+                    src="public/external/vectori129-aypf.svg"
+                    alt="VectorI129"
+                    class="users-vector4"
+                  />
+                </div>
+              </div>
+              <span class="users-text62">Full Name</span>
+            </div>
+          </div>
+          <span class="users-text63">Jhon</span>
+          <span class="users-text64">Jhon</span>
+          <span class="users-text65">Jhon</span>
+          <span class="users-text66">Jhon</span>
+          <span class="users-text67">Jhon</span>
+          <span class="users-text68">Jhon</span>
+          <span class="users-text69">Jhon</span>
+          <span class="users-text70">Jhon</span>
+          <span class="users-text71">Jhon</span>
+          <span class="users-text72">Jhon</span>
+          <span class="users-text73">Jhon</span>
+        </div>
+        <div class="users-group1000005186">
+          <div class="users-master-link5">
+            <div class="users-frame10000046525">
+              <span class="users-text74">ACTIVE</span>
+            </div>
+            <div class="users-group10000046513">
+              <img
+                src="public/external/lineroundedchevronright1293-bzds.svg"
+                alt="LineRoundedChevronRight1293"
+                class="users-line-rounded-chevron-right5"
+              />
+              <img
+                src="public/external/lineroundedchevronright1293-87k.svg"
+                alt="LineRoundedChevronRight1293"
+                class="users-line-rounded-chevron-right6"
+              />
+            </div>
+          </div>
+          <img
+            src="public/external/letsiconscheckfill1293-qexe.svg"
+            alt="letsiconscheckfill1293"
+            class="users-letsiconscheckfill10"
+          />
+          <img
+            src="public/external/letsiconscheckfill1293-weop.svg"
+            alt="letsiconscheckfill1293"
+            class="users-letsiconscheckfill11"
+          />
+          <img
+            src="public/external/letsiconscheckfill1293-0hqk.svg"
+            alt="letsiconscheckfill1293"
+            class="users-letsiconscheckfill12"
+          />
+          <img
+            src="public/external/letsiconscheckfill1293-fwlv.svg"
+            alt="letsiconscheckfill1293"
+            class="users-letsiconscheckfill13"
+          />
+          <img
+            src="public/external/letsiconscheckfill1293-cxpc.svg"
+            alt="letsiconscheckfill1293"
+            class="users-letsiconscheckfill14"
+          />
+          <img
+            src="public/external/letsiconscheckfill1293-rxn.svg"
+            alt="letsiconscheckfill1293"
+            class="users-letsiconscheckfill15"
+          />
+          <img
+            src="public/external/letsiconscheckfill1293-5qb.svg"
+            alt="letsiconscheckfill1293"
+            class="users-letsiconscheckfill16"
+          />
+          <img
+            src="public/external/letsiconscheckfill1293-nuwg.svg"
+            alt="letsiconscheckfill1293"
+            class="users-letsiconscheckfill17"
+          />
+          <img
+            src="public/external/letsiconscheckfill1293-jaw3.svg"
+            alt="letsiconscheckfill1293"
+            class="users-letsiconscheckfill18"
+          />
+          <img
+            src="public/external/letsiconscheckfill1293-butf.svg"
+            alt="letsiconscheckfill1293"
+            class="users-letsiconscheckfill19"
+          />
+          <img
+            src="public/external/letsiconscheckfill1293-1cx9.svg"
+            alt="letsiconscheckfill1293"
+            class="users-letsiconscheckfill20"
+          />
+        </div>
+        <div class="users-group1000005187">
+          <div class="users-master-link6">
+            <div class="users-frame10000046526">
+              <img
+                src="public/external/customeiconcheckiconi129-dezo.svg"
+                alt="CustomeIconCheckIconI129"
+                class="users-custome-icon-check-icon"
+              />
+              <span class="users-text75">ACTIONS</span>
+            </div>
+            <div class="users-group10000046514">
+              <img
+                src="public/external/lineroundedchevronrighti129-kuzf.svg"
+                alt="LineRoundedChevronRightI129"
+                class="users-line-rounded-chevron-right7"
+              />
+              <img
+                src="public/external/lineroundedchevronrighti129-at2w.svg"
+                alt="LineRoundedChevronRightI129"
+                class="users-line-rounded-chevron-right8"
+              />
+            </div>
+          </div>
+          <div class="users-group100000515910">
+            <div class="users-group100000506510">
+              <div class="users-group100000506110">
+                <div class="users-companies-facebook10"></div>
+              </div>
+              <img
+                src="public/external/materialsymbolsedit1293-d6hv.svg"
+                alt="materialsymbolsedit1293"
+                class="users-materialsymbolsedit10"
+              />
+            </div>
+            <div class="users-group100000515810">
+              <div class="users-group100000506111">
+                <div class="users-companies-facebook11"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1293-poiy.svg"
+                alt="iconoircancel1293"
+                class="users-iconoircancel10"
+              />
+            </div>
+          </div>
+          <div class="users-group100000515911">
+            <div class="users-group100000506511">
+              <div class="users-group100000506112">
+                <div class="users-companies-facebook12"></div>
+              </div>
+              <img
+                src="public/external/materialsymbolsedit1293-b1fx.svg"
+                alt="materialsymbolsedit1293"
+                class="users-materialsymbolsedit11"
+              />
+            </div>
+            <div class="users-group100000515811">
+              <div class="users-group100000506113">
+                <div class="users-companies-facebook13"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1293-aa3b.svg"
+                alt="iconoircancel1293"
+                class="users-iconoircancel11"
+              />
+            </div>
+          </div>
+          <div class="users-group100000515912">
+            <div class="users-group100000506512">
+              <div class="users-group100000506114">
+                <div class="users-companies-facebook14"></div>
+              </div>
+              <img
+                src="public/external/materialsymbolsedit1293-i2a8.svg"
+                alt="materialsymbolsedit1293"
+                class="users-materialsymbolsedit12"
+              />
+            </div>
+            <div class="users-group100000515812">
+              <div class="users-group100000506115">
+                <div class="users-companies-facebook15"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1293-kn6.svg"
+                alt="iconoircancel1293"
+                class="users-iconoircancel12"
+              />
+            </div>
+          </div>
+          <div class="users-group100000515913">
+            <div class="users-group100000506513">
+              <div class="users-group100000506116">
+                <div class="users-companies-facebook16"></div>
+              </div>
+              <img
+                src="public/external/materialsymbolsedit1293-qle.svg"
+                alt="materialsymbolsedit1293"
+                class="users-materialsymbolsedit13"
+              />
+            </div>
+            <div class="users-group100000515813">
+              <div class="users-group100000506117">
+                <div class="users-companies-facebook17"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1293-y5q.svg"
+                alt="iconoircancel1293"
+                class="users-iconoircancel13"
+              />
+            </div>
+          </div>
+          <div class="users-group100000515914">
+            <div class="users-group100000506514">
+              <div class="users-group100000506118">
+                <div class="users-companies-facebook18"></div>
+              </div>
+              <img
+                src="public/external/materialsymbolsedit1293-21ad.svg"
+                alt="materialsymbolsedit1293"
+                class="users-materialsymbolsedit14"
+              />
+            </div>
+            <div class="users-group100000515814">
+              <div class="users-group100000506119">
+                <div class="users-companies-facebook19"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1293-juzd.svg"
+                alt="iconoircancel1293"
+                class="users-iconoircancel14"
+              />
+            </div>
+          </div>
+          <div class="users-group100000515915">
+            <div class="users-group100000506515">
+              <div class="users-group100000506120">
+                <div class="users-companies-facebook20"></div>
+              </div>
+              <img
+                src="public/external/materialsymbolsedit1293-zi2t.svg"
+                alt="materialsymbolsedit1293"
+                class="users-materialsymbolsedit15"
+              />
+            </div>
+            <div class="users-group100000515815">
+              <div class="users-group100000506121">
+                <div class="users-companies-facebook21"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1293-jtm.svg"
+                alt="iconoircancel1293"
+                class="users-iconoircancel15"
+              />
+            </div>
+          </div>
+          <div class="users-group100000515916">
+            <div class="users-group100000506516">
+              <div class="users-group100000506122">
+                <div class="users-companies-facebook22"></div>
+              </div>
+              <img
+                src="public/external/materialsymbolsedit1293-d83h.svg"
+                alt="materialsymbolsedit1293"
+                class="users-materialsymbolsedit16"
+              />
+            </div>
+            <div class="users-group100000515816">
+              <div class="users-group100000506123">
+                <div class="users-companies-facebook23"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1293-6aed.svg"
+                alt="iconoircancel1293"
+                class="users-iconoircancel16"
+              />
+            </div>
+          </div>
+          <div class="users-group100000515917">
+            <div class="users-group100000506517">
+              <div class="users-group100000506124">
+                <div class="users-companies-facebook24"></div>
+              </div>
+              <img
+                src="public/external/materialsymbolsedit1293-9qyl.svg"
+                alt="materialsymbolsedit1293"
+                class="users-materialsymbolsedit17"
+              />
+            </div>
+            <div class="users-group100000515817">
+              <div class="users-group100000506125">
+                <div class="users-companies-facebook25"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1293-wuz.svg"
+                alt="iconoircancel1293"
+                class="users-iconoircancel17"
+              />
+            </div>
+          </div>
+          <div class="users-group100000515918">
+            <div class="users-group100000506518">
+              <div class="users-group100000506126">
+                <div class="users-companies-facebook26"></div>
+              </div>
+              <img
+                src="public/external/materialsymbolsedit1293-xuq8.svg"
+                alt="materialsymbolsedit1293"
+                class="users-materialsymbolsedit18"
+              />
+            </div>
+            <div class="users-group100000515818">
+              <div class="users-group100000506127">
+                <div class="users-companies-facebook27"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1293-2pgm.svg"
+                alt="iconoircancel1293"
+                class="users-iconoircancel18"
+              />
+            </div>
+          </div>
+          <div class="users-group100000515919">
+            <div class="users-group100000506519">
+              <div class="users-group100000506128">
+                <div class="users-companies-facebook28"></div>
+              </div>
+              <img
+                src="public/external/materialsymbolsedit1293-8lbn.svg"
+                alt="materialsymbolsedit1293"
+                class="users-materialsymbolsedit19"
+              />
+            </div>
+            <div class="users-group100000515819">
+              <div class="users-group100000506129">
+                <div class="users-companies-facebook29"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1293-rmbg.svg"
+                alt="iconoircancel1293"
+                class="users-iconoircancel19"
+              />
+            </div>
+          </div>
+          <div class="users-group100000515920">
+            <div class="users-group100000506520">
+              <div class="users-group100000506130">
+                <div class="users-companies-facebook30"></div>
+              </div>
+              <img
+                src="public/external/materialsymbolsedit1293-d2.svg"
+                alt="materialsymbolsedit1293"
+                class="users-materialsymbolsedit20"
+              />
+            </div>
+            <div class="users-group100000515820">
+              <div class="users-group100000506131">
+                <div class="users-companies-facebook31"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1293-ilc.svg"
+                alt="iconoircancel1293"
+                class="users-iconoircancel20"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="users-group1000005184">
+          <button class="users-primary-button1"></button>
+          <button class="users-master-primary-button1">
+            <span class="users-text76">Delete All</span>
+            <div class="users-line-rounded-chevron-down2">
+              <div class="users-chevron2">
+                <img
+                  src="public/external/vectori129-pzaq.svg"
+                  alt="VectorI129"
+                  class="users-vector5"
+                />
+              </div>
+            </div>
+          </button>
+
+          <button class="users-primary-button2"></button>
+          <button class="users-master-primary-button2">
+            <span class="users-text77">Add User</span>
+            <div class="users-line-rounded-chevron-down3">
+              <div class="users-chevron3">
+                <img
+                  src="public/external/vectori129-lnc6.svg"
+                  alt="VectorI129"
+                  class="users-vector7"
+                />
+              </div>
+            </div>
+          </button>
+        </div>
+        <div class="users-pagination-v3">
+          <div class="users-control1">
+            <span class="users-text78">Prev</span>
+          </div>
+          <div class="users-page1"></div>
+          <div class="users-page2"></div>
+          <div class="users-page3"></div>
+          <div class="users-page4"><span class="users-text79">...</span></div>
+          <div class="users-page5"><span class="users-text80">10</span></div>
+          <div class="users-control2">
+            <span class="users-text81">Next</span>
+          </div>
+        </div>
+        <div class="users-input-content">
+          <div class="users-group1000005171">
+            <div class="users-input-icon-left">
+              <div class="users-search">
+                <img
+                  src="public/external/vectori129-kwwj.svg"
+                  alt="VectorI129"
+                  class="users-vector8"
+                />
+                <img
+                  src="public/external/vectori129-vugr.svg"
+                  alt="VectorI129"
+                  class="users-vector9"
+                />
+              </div>
+            </div>
+            <span class="users-text82">Search for...</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

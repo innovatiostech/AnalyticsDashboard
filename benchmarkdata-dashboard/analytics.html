@@ -1,0 +1,1816 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 300vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./analytics.css" rel="stylesheet" />
+
+      <div class="analytics-container">
+        <div class="analytics-analytics">
+          <div class="analytics-background1">
+            <img
+              src="public/external/rectangle81291-aevk-1300h.png"
+              alt="Rectangle81291"
+              class="analytics-rectangle8"
+            />
+            <img
+              src="public/external/rectangle101291-g5e-2000w.png"
+              alt="Rectangle101291"
+              class="analytics-rectangle10"
+            />
+            <img
+              src="public/external/wp964993011291-p0c9-2100h.png"
+              alt="wp964993011291"
+              class="analytics-wp96499301"
+            />
+          </div>
+          <div class="analytics-group1000005147">
+            <div class="analytics-frame-input-with-addons">
+              <div class="analytics-autoaddedframe">
+                <div class="analytics-addon">
+                  <img
+                    src="public/external/icon1291-grlm.svg"
+                    alt="Icon1291"
+                    class="analytics-icon1"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="analytics-group1000005146">
+              <img
+                src="public/external/ioniconppersondefault1291-49z.svg"
+                alt="IONIconPpersondefault1291"
+                class="analytics-ion-icon-ppersondefault"
+              />
+              <span class="analytics-text10">Account</span>
+            </div>
+            <img
+              src="public/external/ioniconssettingssharp1291-dt88.svg"
+              alt="IONIconSsettingssharp1291"
+              class="analytics-ion-icon-ssettingssharp"
+            />
+            <img
+              src="public/external/ioniconnnotificationsdefault1291-aa6.svg"
+              alt="IONIconNnotificationsdefault1291"
+              class="analytics-ion-icon-nnotificationsdefault"
+            />
+          </div>
+          <div class="analytics-text11">
+            <span class="analytics-text12">Dashboard</span>
+            <div class="analytics-breadcrumb-item-previous">
+              <span class="analytics-text13">
+                <span class="analytics-text14">Pages</span>
+                <span>/ Dashboard</span>
+              </span>
+            </div>
+          </div>
+          <div class="analytics-sidebar">
+            <div class="analytics-need-help">
+              <div class="analytics-group2">
+                <div class="analytics-background2">
+                  <img
+                    src="public/external/rectangle61291-r4-300w.png"
+                    alt="Rectangle61291"
+                    class="analytics-rectangle6"
+                  />
+                  <img
+                    src="public/external/richardhorvathnwaetf6qo0unsplash11291-b64-500w.png"
+                    alt="richardhorvathnWaeTF6qo0unsplash11291"
+                    class="analytics-richardhorvathn-wae-tf6qo0unsplash1"
+                  />
+                </div>
+                <button class="analytics-frame-button-base">
+                  <div class="analytics-width-structure">
+                    <div class="analytics-height-structure"></div>
+                  </div>
+                </button>
+                <button class="analytics-button-body">
+                  <span class="analytics-text16">SUPPORT 24x7</span>
+                </button>
+              </div>
+              <div class="analytics-frame-min-width">
+                <img
+                  src="public/external/content1291-4ebrq-200h.png"
+                  alt="Content1291"
+                  class="analytics-content"
+                />
+              </div>
+            </div>
+
+            <div class="analytics-text17">
+              <span class="analytics-text18">Contact</span>
+              <span class="analytics-text19">Need help?</span>
+            </div>
+            <div class="analytics-icon2">
+              <img
+                src="public/external/ioniconhhelpcircle1291-pu7h.svg"
+                alt="IONIconHhelpcircle1291"
+                class="analytics-ion-icon-hhelpcircle"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="analytics-logo">
+          <img
+            src="public/external/logo260x7511291-yvy-200h.png"
+            alt="logo260x7511291"
+            class="analytics-logo260x751"
+          />
+        </div>
+        <img
+          src="public/external/vector61291-qy03.svg"
+          alt="Vector61291"
+          class="analytics-vector6"
+        />
+      </div>
+      <div class="analytics-group1000005170">
+        <img
+          src="public/external/rectangle59161291-yzv6-200h.png"
+          alt="Rectangle59161291"
+          class="analytics-rectangle5916"
+        />
+        <img
+          src="public/external/rectangle59231291-rmjn-200h.png"
+          alt="Rectangle59231291"
+          class="analytics-rectangle5923"
+        />
+        <img
+          src="public/external/rectangle59241291-49t-200h.png"
+          alt="Rectangle59241291"
+          class="analytics-rectangle5924"
+        />
+        <img
+          src="public/external/rectangle59251291-jqfh-200h.png"
+          alt="Rectangle59251291"
+          class="analytics-rectangle5925"
+        />
+        <img
+          src="public/external/rectangle59261291-7kvm-200h.png"
+          alt="Rectangle59261291"
+          class="analytics-rectangle5926"
+        />
+        <img
+          src="public/external/line241291-e8v.svg"
+          alt="Line241291"
+          class="analytics-line24"
+        />
+        <img
+          src="public/external/line251291-gov.svg"
+          alt="Line251291"
+          class="analytics-line25"
+        />
+        <img
+          src="public/external/vector7581291-a79b.svg"
+          alt="Vector7581291"
+          class="analytics-vector758"
+        />
+        <img
+          src="public/external/vector7591291-ydzx.svg"
+          alt="Vector7591291"
+          class="analytics-vector759"
+        />
+        <img
+          src="public/external/vector7601291-zavk.svg"
+          alt="Vector7601291"
+          class="analytics-vector760"
+        />
+        <img
+          src="public/external/vector7611291-jcmf.svg"
+          alt="Vector7611291"
+          class="analytics-vector761"
+        />
+        <img
+          src="public/external/vector7621291-x66.svg"
+          alt="Vector7621291"
+          class="analytics-vector762"
+        />
+        <img
+          src="public/external/vector7631291-47jq.svg"
+          alt="Vector7631291"
+          class="analytics-vector763"
+        />
+        <img
+          src="public/external/vector7641291-60t.svg"
+          alt="Vector7641291"
+          class="analytics-vector764"
+        />
+        <img
+          src="public/external/vector7651291-nx08.svg"
+          alt="Vector7651291"
+          class="analytics-vector765"
+        />
+        <img
+          src="public/external/vector7661291-s57d.svg"
+          alt="Vector7661291"
+          class="analytics-vector766"
+        />
+        <div class="analytics-group1000005160">
+          <div class="analytics-group1000005083">
+            <div class="analytics-line-rounded-less">
+              <div class="analytics-less">
+                <img
+                  src="public/external/vectori129-xrd.svg"
+                  alt="VectorI129"
+                  class="analytics-vector10"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="analytics-master-link1">
+            <div class="analytics-frame10000046521">
+              <div class="analytics-custome-icon-users-icon">
+                <div class="analytics-group1000004451">
+                  <img
+                    src="public/external/rectangle5911i129-hi8g-200h.png"
+                    alt="Rectangle5911I129"
+                    class="analytics-rectangle5911"
+                  />
+                  <img
+                    src="public/external/vectori129-qvt.svg"
+                    alt="VectorI129"
+                    class="analytics-vector11"
+                  />
+                </div>
+              </div>
+              <span class="analytics-text20">ID</span>
+            </div>
+            <div class="analytics-group10000046511">
+              <img
+                src="public/external/lineroundedchevronrighti129-oop.svg"
+                alt="LineRoundedChevronRightI129"
+                class="analytics-line-rounded-chevron-right10"
+              />
+              <img
+                src="public/external/lineroundedchevronrighti129-yk3m.svg"
+                alt="LineRoundedChevronRightI129"
+                class="analytics-line-rounded-chevron-right11"
+              />
+            </div>
+          </div>
+          <div class="analytics-group1000005148">
+            <div class="analytics-master-link2">
+              <div class="analytics-frame10000046522">
+                <div class="analytics-letsiconsdatefill">
+                  <div class="analytics-group10">
+                    <img
+                      src="public/external/vector1291-313l.svg"
+                      alt="Vector1291"
+                      class="analytics-vector12"
+                    />
+                    <img
+                      src="public/external/vector1291-c23p.svg"
+                      alt="Vector1291"
+                      class="analytics-vector13"
+                    />
+                  </div>
+                </div>
+                <span class="analytics-text21">CREATED</span>
+              </div>
+            </div>
+            <div class="analytics-group10000046512">
+              <img
+                src="public/external/lineroundedchevronright1291-31lm.svg"
+                alt="LineRoundedChevronRight1291"
+                class="analytics-line-rounded-chevron-right12"
+              />
+              <img
+                src="public/external/lineroundedchevronright1291-f1th.svg"
+                alt="LineRoundedChevronRight1291"
+                class="analytics-line-rounded-chevron-right13"
+              />
+            </div>
+          </div>
+          <div class="analytics-master-link3">
+            <div class="analytics-frame10000046523">
+              <img
+                src="public/external/fluentscreenshot28filled1291-kqup.svg"
+                alt="fluentscreenshot28filled1291"
+                class="analytics-fluentscreenshot28filled"
+              />
+              <span class="analytics-text22">SNAPSHOT</span>
+            </div>
+          </div>
+          <div class="analytics-master-link4">
+            <div class="analytics-frame10000046524">
+              <img
+                src="public/external/materialsymbolsdescriptionrounded1291-eqbb.svg"
+                alt="materialsymbolsdescriptionrounded1291"
+                class="analytics-materialsymbolsdescriptionrounded"
+              />
+              <span class="analytics-text23">ALERT DESCRIPTION</span>
+            </div>
+          </div>
+          <div class="analytics-master-link5">
+            <div class="analytics-frame10000046525">
+              <img
+                src="public/external/customeiconshoppingbagicon1291-3srk.svg"
+                alt="CustomeIconShoppingBagIcon1291"
+                class="analytics-custome-icon-shopping-bag-icon"
+              />
+              <span class="analytics-text24">STATUS</span>
+            </div>
+          </div>
+          <div class="analytics-master-link6">
+            <div class="analytics-frame10000046526">
+              <img
+                src="public/external/fluentcameradome16filled1291-n5a3l.svg"
+                alt="fluentcameradome16filled1291"
+                class="analytics-fluentcameradome16filled"
+              />
+              <span class="analytics-text25">CAMERA ID</span>
+            </div>
+            <div class="analytics-group10000046513">
+              <img
+                src="public/external/lineroundedchevronright1291-zwre.svg"
+                alt="LineRoundedChevronRight1291"
+                class="analytics-line-rounded-chevron-right14"
+              />
+              <img
+                src="public/external/lineroundedchevronright1291-196k.svg"
+                alt="LineRoundedChevronRight1291"
+                class="analytics-line-rounded-chevron-right15"
+              />
+            </div>
+          </div>
+          <div class="analytics-master-link7">
+            <div class="analytics-frame10000046527">
+              <div class="analytics-mingcutelocationfill">
+                <div class="analytics-group11">
+                  <img
+                    src="public/external/vector1291-n7xk.svg"
+                    alt="Vector1291"
+                    class="analytics-vector14"
+                  />
+                </div>
+              </div>
+              <span class="analytics-text26">LOCATION</span>
+            </div>
+            <div class="analytics-group10000046514">
+              <img
+                src="public/external/lineroundedchevronright1291-zzgc.svg"
+                alt="LineRoundedChevronRight1291"
+                class="analytics-line-rounded-chevron-right16"
+              />
+              <img
+                src="public/external/lineroundedchevronright1291-jbg.svg"
+                alt="LineRoundedChevronRight1291"
+                class="analytics-line-rounded-chevron-right17"
+              />
+            </div>
+          </div>
+          <div class="analytics-master-link8">
+            <div class="analytics-frame10000046528">
+              <img
+                src="public/external/customeiconcheckiconi129-9q1p.svg"
+                alt="CustomeIconCheckIconI129"
+                class="analytics-custome-icon-check-icon"
+              />
+              <span class="analytics-text27">ACTIONS</span>
+            </div>
+            <div class="analytics-group10000046515">
+              <img
+                src="public/external/lineroundedchevronrighti129-kwmn.svg"
+                alt="LineRoundedChevronRightI129"
+                class="analytics-line-rounded-chevron-right18"
+              />
+              <img
+                src="public/external/lineroundedchevronrighti129-o6et.svg"
+                alt="LineRoundedChevronRightI129"
+                class="analytics-line-rounded-chevron-right19"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="analytics-group1000005161">
+          <div class="analytics-checkbox1">
+            <div class="analytics-group10000045681">
+              <img
+                src="public/external/lineroundedchecki129-szxg.svg"
+                alt="LineRoundedCheckI129"
+                class="analytics-line-rounded-check1"
+              />
+            </div>
+          </div>
+          <span class="analytics-text28">12/10/2023 18:03</span>
+          <span class="analytics-text29">Cam1</span>
+          <span class="analytics-text30">225388</span>
+          <span class="analytics-text31">
+            Benchmark: PPE Non-Compliance(no_vest)
+          </span>
+          <span class="analytics-text32">NYE</span>
+          <img
+            src="public/external/screenshot202410281347411291-u8b7-200h.png"
+            alt="Screenshot202410281347411291"
+            class="analytics-screenshot202410281347411"
+          />
+          <img
+            src="public/external/letsiconscheckfill1291-aehd.svg"
+            alt="letsiconscheckfill1291"
+            class="analytics-letsiconscheckfill1"
+          />
+          <div class="analytics-group10000051591">
+            <div class="analytics-group10000050651">
+              <div class="analytics-group100000506110">
+                <div class="analytics-companies-facebook10"></div>
+              </div>
+              <img
+                src="public/external/lsiconviewfilled1291-6xow.svg"
+                alt="lsiconviewfilled1291"
+                class="analytics-lsiconviewfilled1"
+              />
+            </div>
+            <div class="analytics-group10000051561">
+              <div class="analytics-group100000506111">
+                <div class="analytics-companies-facebook11"></div>
+              </div>
+              <div class="analytics-mingcuteaddfill1">
+                <div class="analytics-group12">
+                  <img
+                    src="public/external/vector1291-b2t.svg"
+                    alt="Vector1291"
+                    class="analytics-vector15"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="analytics-group10000051571">
+              <div class="analytics-group100000506112">
+                <div class="analytics-companies-facebook12"></div>
+              </div>
+              <div class="analytics-mingcutecheckfill1">
+                <div class="analytics-group13">
+                  <img
+                    src="public/external/vector1291-5yqn.svg"
+                    alt="Vector1291"
+                    class="analytics-vector16"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="analytics-group10000051581">
+              <div class="analytics-group100000506113">
+                <div class="analytics-companies-facebook13"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1291-3otfi.svg"
+                alt="iconoircancel1291"
+                class="analytics-iconoircancel1"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="analytics-group1000005162">
+          <div class="analytics-checkbox2">
+            <img
+              src="public/external/rectangle5912i129-v7ca-200h.png"
+              alt="Rectangle5912I129"
+              class="analytics-rectangle59121"
+            />
+          </div>
+          <span class="analytics-text33">12/10/2023 18:03</span>
+          <span class="analytics-text34">Cam1</span>
+          <span class="analytics-text35">225388</span>
+          <span class="analytics-text36">
+            Benchmark: PPE Non-Compliance(no_vest)
+          </span>
+          <span class="analytics-text37">NYE</span>
+          <img
+            src="public/external/screenshot202410281347411291-xieh-200h.png"
+            alt="Screenshot202410281347411291"
+            class="analytics-screenshot202410281347412"
+          />
+          <img
+            src="public/external/letsiconscheckfill1291-d6z.svg"
+            alt="letsiconscheckfill1291"
+            class="analytics-letsiconscheckfill2"
+          />
+          <div class="analytics-group10000051592">
+            <div class="analytics-group10000050652">
+              <div class="analytics-group100000506114">
+                <div class="analytics-companies-facebook14"></div>
+              </div>
+              <img
+                src="public/external/lsiconviewfilled1291-gx5k.svg"
+                alt="lsiconviewfilled1291"
+                class="analytics-lsiconviewfilled2"
+              />
+            </div>
+            <div class="analytics-group10000051562">
+              <div class="analytics-group100000506115">
+                <div class="analytics-companies-facebook15"></div>
+              </div>
+              <div class="analytics-mingcuteaddfill2">
+                <div class="analytics-group14">
+                  <img
+                    src="public/external/vector1291-4x1c.svg"
+                    alt="Vector1291"
+                    class="analytics-vector17"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="analytics-group10000051572">
+              <div class="analytics-group100000506116">
+                <div class="analytics-companies-facebook16"></div>
+              </div>
+              <div class="analytics-mingcutecheckfill2">
+                <div class="analytics-group15">
+                  <img
+                    src="public/external/vector1291-8tz8.svg"
+                    alt="Vector1291"
+                    class="analytics-vector18"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="analytics-group10000051582">
+              <div class="analytics-group100000506117">
+                <div class="analytics-companies-facebook17"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1291-un3s.svg"
+                alt="iconoircancel1291"
+                class="analytics-iconoircancel2"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="analytics-group1000005163">
+          <div class="analytics-checkbox3">
+            <div class="analytics-group10000045682">
+              <img
+                src="public/external/lineroundedchecki129-mtt8.svg"
+                alt="LineRoundedCheckI129"
+                class="analytics-line-rounded-check2"
+              />
+            </div>
+          </div>
+          <span class="analytics-text38">12/10/2023 18:03</span>
+          <span class="analytics-text39">Cam1</span>
+          <span class="analytics-text40">225388</span>
+          <span class="analytics-text41">
+            Benchmark: PPE Non-Compliance(no_vest)
+          </span>
+          <span class="analytics-text42">NYE</span>
+          <img
+            src="public/external/screenshot202410281347411291-4acq-200h.png"
+            alt="Screenshot202410281347411291"
+            class="analytics-screenshot202410281347413"
+          />
+          <img
+            src="public/external/letsiconscheckfill1291-64e.svg"
+            alt="letsiconscheckfill1291"
+            class="analytics-letsiconscheckfill3"
+          />
+          <div class="analytics-group10000051593">
+            <div class="analytics-group10000050653">
+              <div class="analytics-group100000506118">
+                <div class="analytics-companies-facebook18"></div>
+              </div>
+              <img
+                src="public/external/lsiconviewfilled1291-9xr.svg"
+                alt="lsiconviewfilled1291"
+                class="analytics-lsiconviewfilled3"
+              />
+            </div>
+            <div class="analytics-group10000051563">
+              <div class="analytics-group100000506119">
+                <div class="analytics-companies-facebook19"></div>
+              </div>
+              <div class="analytics-mingcuteaddfill3">
+                <div class="analytics-group16">
+                  <img
+                    src="public/external/vector1291-ph6h.svg"
+                    alt="Vector1291"
+                    class="analytics-vector19"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="analytics-group10000051573">
+              <div class="analytics-group100000506120">
+                <div class="analytics-companies-facebook20"></div>
+              </div>
+              <div class="analytics-mingcutecheckfill3">
+                <div class="analytics-group17">
+                  <img
+                    src="public/external/vector1291-ppuc.svg"
+                    alt="Vector1291"
+                    class="analytics-vector20"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="analytics-group10000051583">
+              <div class="analytics-group100000506121">
+                <div class="analytics-companies-facebook21"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1291-j11f.svg"
+                alt="iconoircancel1291"
+                class="analytics-iconoircancel3"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="analytics-group1000005164">
+          <div class="analytics-checkbox4">
+            <img
+              src="public/external/rectangle5912i129-heoo-200h.png"
+              alt="Rectangle5912I129"
+              class="analytics-rectangle59122"
+            />
+          </div>
+          <span class="analytics-text43">12/10/2023 18:03</span>
+          <span class="analytics-text44">Cam1</span>
+          <span class="analytics-text45">225388</span>
+          <span class="analytics-text46">
+            Benchmark: PPE Non-Compliance(no_vest)
+          </span>
+          <span class="analytics-text47">NYE</span>
+          <img
+            src="public/external/screenshot202410281347411291-ptlo-200h.png"
+            alt="Screenshot202410281347411291"
+            class="analytics-screenshot202410281347414"
+          />
+          <img
+            src="public/external/letsiconscheckfill1291-6gp.svg"
+            alt="letsiconscheckfill1291"
+            class="analytics-letsiconscheckfill4"
+          />
+          <div class="analytics-group10000051594">
+            <div class="analytics-group10000050654">
+              <div class="analytics-group100000506122">
+                <div class="analytics-companies-facebook22"></div>
+              </div>
+              <img
+                src="public/external/lsiconviewfilled1291-t404.svg"
+                alt="lsiconviewfilled1291"
+                class="analytics-lsiconviewfilled4"
+              />
+            </div>
+            <div class="analytics-group10000051564">
+              <div class="analytics-group100000506123">
+                <div class="analytics-companies-facebook23"></div>
+              </div>
+              <div class="analytics-mingcuteaddfill4">
+                <div class="analytics-group18">
+                  <img
+                    src="public/external/vector1291-l8d.svg"
+                    alt="Vector1291"
+                    class="analytics-vector21"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="analytics-group10000051574">
+              <div class="analytics-group100000506124">
+                <div class="analytics-companies-facebook24"></div>
+              </div>
+              <div class="analytics-mingcutecheckfill4">
+                <div class="analytics-group19">
+                  <img
+                    src="public/external/vector1291-6n3r.svg"
+                    alt="Vector1291"
+                    class="analytics-vector22"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="analytics-group10000051584">
+              <div class="analytics-group100000506125">
+                <div class="analytics-companies-facebook25"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1291-aw8g.svg"
+                alt="iconoircancel1291"
+                class="analytics-iconoircancel4"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="analytics-group1000005165">
+          <div class="analytics-checkbox5">
+            <div class="analytics-group10000045683">
+              <img
+                src="public/external/lineroundedchecki129-cpxt.svg"
+                alt="LineRoundedCheckI129"
+                class="analytics-line-rounded-check3"
+              />
+            </div>
+          </div>
+          <span class="analytics-text48">12/10/2023 18:03</span>
+          <span class="analytics-text49">Cam1</span>
+          <span class="analytics-text50">225388</span>
+          <span class="analytics-text51">
+            Benchmark: PPE Non-Compliance(no_vest)
+          </span>
+          <span class="analytics-text52">NYE</span>
+          <img
+            src="public/external/screenshot202410281347411292-3p9k-200h.png"
+            alt="Screenshot202410281347411292"
+            class="analytics-screenshot202410281347415"
+          />
+          <img
+            src="public/external/letsiconscheckfill1292-er4.svg"
+            alt="letsiconscheckfill1292"
+            class="analytics-letsiconscheckfill5"
+          />
+          <div class="analytics-group10000051595">
+            <div class="analytics-group10000050655">
+              <div class="analytics-group100000506126">
+                <div class="analytics-companies-facebook26"></div>
+              </div>
+              <img
+                src="public/external/lsiconviewfilled1292-az4k.svg"
+                alt="lsiconviewfilled1292"
+                class="analytics-lsiconviewfilled5"
+              />
+            </div>
+            <div class="analytics-group10000051565">
+              <div class="analytics-group100000506127">
+                <div class="analytics-companies-facebook27"></div>
+              </div>
+              <div class="analytics-mingcuteaddfill5">
+                <div class="analytics-group20">
+                  <img
+                    src="public/external/vector1292-j69j.svg"
+                    alt="Vector1292"
+                    class="analytics-vector23"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="analytics-group10000051575">
+              <div class="analytics-group100000506128">
+                <div class="analytics-companies-facebook28"></div>
+              </div>
+              <div class="analytics-mingcutecheckfill5">
+                <div class="analytics-group21">
+                  <img
+                    src="public/external/vector1292-8mg.svg"
+                    alt="Vector1292"
+                    class="analytics-vector24"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="analytics-group10000051585">
+              <div class="analytics-group100000506129">
+                <div class="analytics-companies-facebook29"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1292-pnrk.svg"
+                alt="iconoircancel1292"
+                class="analytics-iconoircancel5"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="analytics-group1000005166">
+          <div class="analytics-checkbox6">
+            <img
+              src="public/external/rectangle5912i129-6o6q-200h.png"
+              alt="Rectangle5912I129"
+              class="analytics-rectangle59123"
+            />
+          </div>
+          <span class="analytics-text53">12/10/2023 18:03</span>
+          <span class="analytics-text54">Cam1</span>
+          <span class="analytics-text55">225388</span>
+          <span class="analytics-text56">
+            Benchmark: PPE Non-Compliance(no_vest)
+          </span>
+          <span class="analytics-text57">NYE</span>
+          <img
+            src="public/external/screenshot202410281347411292-myph-200h.png"
+            alt="Screenshot202410281347411292"
+            class="analytics-screenshot202410281347416"
+          />
+          <img
+            src="public/external/letsiconscheckfill1292-xos9.svg"
+            alt="letsiconscheckfill1292"
+            class="analytics-letsiconscheckfill6"
+          />
+          <div class="analytics-group10000051596">
+            <div class="analytics-group10000050656">
+              <div class="analytics-group100000506130">
+                <div class="analytics-companies-facebook30"></div>
+              </div>
+              <img
+                src="public/external/lsiconviewfilled1292-xumy.svg"
+                alt="lsiconviewfilled1292"
+                class="analytics-lsiconviewfilled6"
+              />
+            </div>
+            <div class="analytics-group10000051566">
+              <div class="analytics-group100000506131">
+                <div class="analytics-companies-facebook31"></div>
+              </div>
+              <div class="analytics-mingcuteaddfill6">
+                <div class="analytics-group22">
+                  <img
+                    src="public/external/vector1292-efkj.svg"
+                    alt="Vector1292"
+                    class="analytics-vector25"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="analytics-group10000051576">
+              <div class="analytics-group100000506132">
+                <div class="analytics-companies-facebook32"></div>
+              </div>
+              <div class="analytics-mingcutecheckfill6">
+                <div class="analytics-group23">
+                  <img
+                    src="public/external/vector1292-al2b.svg"
+                    alt="Vector1292"
+                    class="analytics-vector26"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="analytics-group10000051586">
+              <div class="analytics-group100000506133">
+                <div class="analytics-companies-facebook33"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1292-a86q.svg"
+                alt="iconoircancel1292"
+                class="analytics-iconoircancel6"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="analytics-group1000005167">
+          <div class="analytics-checkbox7">
+            <div class="analytics-group10000045684">
+              <img
+                src="public/external/lineroundedchecki129-bitd.svg"
+                alt="LineRoundedCheckI129"
+                class="analytics-line-rounded-check4"
+              />
+            </div>
+          </div>
+          <span class="analytics-text58">12/10/2023 18:03</span>
+          <span class="analytics-text59">Cam1</span>
+          <span class="analytics-text60">225388</span>
+          <span class="analytics-text61">
+            Benchmark: PPE Non-Compliance(no_vest)
+          </span>
+          <span class="analytics-text62">NYE</span>
+          <img
+            src="public/external/screenshot202410281347411292-t4ec-200h.png"
+            alt="Screenshot202410281347411292"
+            class="analytics-screenshot202410281347417"
+          />
+          <img
+            src="public/external/letsiconscheckfill1292-570t.svg"
+            alt="letsiconscheckfill1292"
+            class="analytics-letsiconscheckfill7"
+          />
+          <div class="analytics-group10000051597">
+            <div class="analytics-group10000050657">
+              <div class="analytics-group100000506134">
+                <div class="analytics-companies-facebook34"></div>
+              </div>
+              <img
+                src="public/external/lsiconviewfilled1292-0vi.svg"
+                alt="lsiconviewfilled1292"
+                class="analytics-lsiconviewfilled7"
+              />
+            </div>
+            <div class="analytics-group10000051567">
+              <div class="analytics-group100000506135">
+                <div class="analytics-companies-facebook35"></div>
+              </div>
+              <div class="analytics-mingcuteaddfill7">
+                <div class="analytics-group24">
+                  <img
+                    src="public/external/vector1292-hozn.svg"
+                    alt="Vector1292"
+                    class="analytics-vector27"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="analytics-group10000051577">
+              <div class="analytics-group100000506136">
+                <div class="analytics-companies-facebook36"></div>
+              </div>
+              <div class="analytics-mingcutecheckfill7">
+                <div class="analytics-group25">
+                  <img
+                    src="public/external/vector1292-qfql.svg"
+                    alt="Vector1292"
+                    class="analytics-vector28"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="analytics-group10000051587">
+              <div class="analytics-group100000506137">
+                <div class="analytics-companies-facebook37"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1292-wg99.svg"
+                alt="iconoircancel1292"
+                class="analytics-iconoircancel7"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="analytics-group1000005168">
+          <div class="analytics-checkbox8">
+            <img
+              src="public/external/rectangle5912i129-euw7-200h.png"
+              alt="Rectangle5912I129"
+              class="analytics-rectangle59124"
+            />
+          </div>
+          <span class="analytics-text63">12/10/2023 18:03</span>
+          <span class="analytics-text64">Cam1</span>
+          <span class="analytics-text65">225388</span>
+          <span class="analytics-text66">
+            Benchmark: PPE Non-Compliance(no_vest)
+          </span>
+          <span class="analytics-text67">NYE</span>
+          <img
+            src="public/external/screenshot202410281347411292-8be-200h.png"
+            alt="Screenshot202410281347411292"
+            class="analytics-screenshot202410281347418"
+          />
+          <img
+            src="public/external/letsiconscheckfill1292-vos.svg"
+            alt="letsiconscheckfill1292"
+            class="analytics-letsiconscheckfill8"
+          />
+          <div class="analytics-group10000051598">
+            <div class="analytics-group10000050658">
+              <div class="analytics-group100000506138">
+                <div class="analytics-companies-facebook38"></div>
+              </div>
+              <img
+                src="public/external/lsiconviewfilled1292-htee.svg"
+                alt="lsiconviewfilled1292"
+                class="analytics-lsiconviewfilled8"
+              />
+            </div>
+            <div class="analytics-group10000051568">
+              <div class="analytics-group100000506139">
+                <div class="analytics-companies-facebook39"></div>
+              </div>
+              <div class="analytics-mingcuteaddfill8">
+                <div class="analytics-group26">
+                  <img
+                    src="public/external/vector1292-sllc.svg"
+                    alt="Vector1292"
+                    class="analytics-vector29"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="analytics-group10000051578">
+              <div class="analytics-group100000506140">
+                <div class="analytics-companies-facebook40"></div>
+              </div>
+              <div class="analytics-mingcutecheckfill8">
+                <div class="analytics-group27">
+                  <img
+                    src="public/external/vector1292-299s.svg"
+                    alt="Vector1292"
+                    class="analytics-vector30"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="analytics-group10000051588">
+              <div class="analytics-group100000506141">
+                <div class="analytics-companies-facebook41"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1292-wge.svg"
+                alt="iconoircancel1292"
+                class="analytics-iconoircancel8"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="analytics-group1000005169">
+          <div class="analytics-checkbox9">
+            <div class="analytics-group10000045685">
+              <img
+                src="public/external/lineroundedchecki129-rywb.svg"
+                alt="LineRoundedCheckI129"
+                class="analytics-line-rounded-check5"
+              />
+            </div>
+          </div>
+          <span class="analytics-text68">12/10/2023 18:03</span>
+          <span class="analytics-text69">Cam1</span>
+          <span class="analytics-text70">225388</span>
+          <span class="analytics-text71">
+            Benchmark: PPE Non-Compliance(no_vest)
+          </span>
+          <span class="analytics-text72">NYE</span>
+          <img
+            src="public/external/screenshot202410281347411292-wr32-200h.png"
+            alt="Screenshot202410281347411292"
+            class="analytics-screenshot202410281347419"
+          />
+          <img
+            src="public/external/letsiconscheckfill1292-jpkn.svg"
+            alt="letsiconscheckfill1292"
+            class="analytics-letsiconscheckfill9"
+          />
+          <div class="analytics-group10000051599">
+            <div class="analytics-group10000050659">
+              <div class="analytics-group100000506142">
+                <div class="analytics-companies-facebook42"></div>
+              </div>
+              <img
+                src="public/external/lsiconviewfilled1292-3hqk.svg"
+                alt="lsiconviewfilled1292"
+                class="analytics-lsiconviewfilled9"
+              />
+            </div>
+            <div class="analytics-group10000051569">
+              <div class="analytics-group100000506143">
+                <div class="analytics-companies-facebook43"></div>
+              </div>
+              <div class="analytics-mingcuteaddfill9">
+                <div class="analytics-group28">
+                  <img
+                    src="public/external/vector1292-zhl7.svg"
+                    alt="Vector1292"
+                    class="analytics-vector31"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="analytics-group10000051579">
+              <div class="analytics-group100000506144">
+                <div class="analytics-companies-facebook44"></div>
+              </div>
+              <div class="analytics-mingcutecheckfill9">
+                <div class="analytics-group29">
+                  <img
+                    src="public/external/vector1292-2zj7.svg"
+                    alt="Vector1292"
+                    class="analytics-vector32"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="analytics-group10000051589">
+              <div class="analytics-group100000506145">
+                <div class="analytics-companies-facebook45"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1292-mvd.svg"
+                alt="iconoircancel1292"
+                class="analytics-iconoircancel9"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="analytics-group1000005155">
+          <div class="analytics-group1000005152">
+            <span class="analytics-text73">Summary Report</span>
+            <div class="analytics-frame-switch-base1">
+              <img
+                src="public/external/ellipse11292-77kd-200h.png"
+                alt="Ellipse11292"
+                class="analytics-ellipse11"
+              />
+            </div>
+          </div>
+          <div class="analytics-group1000005150">
+            <span class="analytics-text74">Excel Report</span>
+            <div class="analytics-frame-switch-base2">
+              <img
+                src="public/external/ellipse11292-hq3-200h.png"
+                alt="Ellipse11292"
+                class="analytics-ellipse12"
+              />
+            </div>
+          </div>
+          <div class="analytics-group1000005151">
+            <span class="analytics-text75">Detailed Report</span>
+            <div class="analytics-frame-switch-base3">
+              <img
+                src="public/external/ellipse11292-8k1c-200h.png"
+                alt="Ellipse11292"
+                class="analytics-ellipse13"
+              />
+            </div>
+          </div>
+          <div class="analytics-group1000005154">
+            <span class="analytics-text76">Generate Report</span>
+            <div class="analytics-image4traced">
+              <div class="analytics-black">
+                <img
+                  src="public/external/vector1292-n409.svg"
+                  alt="Vector1292"
+                  class="analytics-vector33"
+                />
+                <img
+                  src="public/external/vector1292-1h4.svg"
+                  alt="Vector1292"
+                  class="analytics-vector34"
+                />
+                <img
+                  src="public/external/vector1292-kdt.svg"
+                  alt="Vector1292"
+                  class="analytics-vector35"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="analytics-pagination-v3">
+          <div class="analytics-control1">
+            <span class="analytics-text77">Prev</span>
+          </div>
+          <div class="analytics-page1"></div>
+          <div class="analytics-page2"></div>
+          <div class="analytics-page3"></div>
+          <div class="analytics-page4">
+            <span class="analytics-text78">...</span>
+          </div>
+          <div class="analytics-page5">
+            <span class="analytics-text79">10</span>
+          </div>
+          <div class="analytics-control2">
+            <span class="analytics-text80">Next</span>
+          </div>
+        </div>
+        <div class="analytics-input-content">
+          <div class="analytics-group1000005171">
+            <div class="analytics-input-icon-left">
+              <div class="analytics-search">
+                <img
+                  src="public/external/vectori129-1io.svg"
+                  alt="VectorI129"
+                  class="analytics-vector36"
+                />
+                <img
+                  src="public/external/vectori129-utik.svg"
+                  alt="VectorI129"
+                  class="analytics-vector37"
+                />
+              </div>
+            </div>
+            <span class="analytics-text81">Search for...</span>
+          </div>
+        </div>
+      </div>
+      <div class="analytics-group1000005212">
+        <div class="analytics-tables">
+          <div class="analytics-group1000005209">
+            <div class="analytics-group1000005208">
+              <div class="analytics-group1000005207">
+                <img
+                  src="public/external/ioniconsstatschart1292-yxuaj.svg"
+                  alt="IONIconSstatschart1292"
+                  class="analytics-ion-icon-sstatschart"
+                />
+              </div>
+              <span class="analytics-text82">Analytics</span>
+            </div>
+          </div>
+        </div>
+        <div class="analytics-dashboard">
+          <img
+            src="public/external/rectangle31292-cya9-200h.png"
+            alt="Rectangle31292"
+            class="analytics-rectangle3"
+          />
+          <img
+            src="public/external/dashboard111292-ie5l-200w.png"
+            alt="dashboard111292"
+            class="analytics-dashboard11"
+          />
+          <span class="analytics-text83">Dashboard</span>
+        </div>
+        <div class="analytics-group1000005211">
+          <div class="analytics-group1000005210">
+            <img
+              src="public/external/ioniconbbuilddefault1292-q62c.svg"
+              alt="IONIconBbuilddefault1292"
+              class="analytics-ion-icon-bbuilddefault"
+            />
+          </div>
+          <span class="analytics-text84">Settings</span>
+          <div class="analytics-line-rounded-chevron-down">
+            <div class="analytics-chevron">
+              <img
+                src="public/external/vectori129-wbzn.svg"
+                alt="VectorI129"
+                class="analytics-vector38"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

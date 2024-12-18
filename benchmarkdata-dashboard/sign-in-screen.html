@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 300vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./sign-in-screen.css" rel="stylesheet" />
+
+      <div class="sign-in-screen-container">
+        <div class="sign-in-screen-sign-in-screen">
+          <div class="sign-in-screen-new-design">
+            <div class="sign-in-screen-main-dashboard">
+              <div class="sign-in-screen-background1">
+                <div class="sign-in-screen-footer-menu"></div>
+              </div>
+            </div>
+          </div>
+          <div class="sign-in-screen-image">
+            <div class="sign-in-screen-group122">
+              <img
+                src="public/external/rectangle541291-dhtu-1100h.png"
+                alt="Rectangle541291"
+                class="sign-in-screen-rectangle54"
+              />
+              <img
+                src="public/external/sandrokatalinak1bovtizssunsplash211291-peh9-2200w.png"
+                alt="sandrokatalinak1bOVTiZSsunsplash211291"
+                class="sign-in-screen-sandrokatalinak1b-ov-ti-z-ssunsplash21"
+              />
+            </div>
+            <div class="sign-in-screen-text10">
+              <span class="sign-in-screen-text11">INSPIRED BY THE FUTURE:</span>
+            </div>
+          </div>
+          <div class="sign-in-screen-group1000005119">
+            <div class="sign-in-screen-menu">
+              <div class="sign-in-screen-background2"></div>
+              <button class="sign-in-screen-frame-button-base1">
+                <div class="sign-in-screen-width-structure1">
+                  <div class="sign-in-screen-height-structure1"></div>
+                </div>
+              </button>
+              <button class="sign-in-screen-button-body1">
+                <span class="sign-in-screen-text12">Support</span>
+              </button>
+            </div>
+            <div class="sign-in-screen-frame-min-width1">
+              <img
+                src="public/external/content1291-zji8-200h.png"
+                alt="Content1291"
+                class="sign-in-screen-content1"
+              />
+            </div>
+          </div>
+
+          <div class="sign-in-screen-pages">
+            <div class="sign-in-screen-group1000005118">
+              <div class="sign-in-screen-sign-in">
+                <div class="sign-in-screen-width-structure2">
+                  <div class="sign-in-screen-height-structure2">
+                    <button class="sign-in-screen-button-body2">
+                      <img
+                        src="public/external/icon1291-g3vn.svg"
+                        alt="Icon1291"
+                        class="sign-in-screen-icon1"
+                      />
+                      <span class="sign-in-screen-text13">CONTACT</span>
+                    </button>
+                  </div>
+                  <div class="sign-in-screen-frame-min-width2">
+                    <img
+                      src="public/external/content1291-sdl6-200h.png"
+                      alt="Content1291"
+                      class="sign-in-screen-content2"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="sign-in-screen-sign-up">
+                <div class="sign-in-screen-width-structure3">
+                  <div class="sign-in-screen-height-structure3">
+                    <button class="sign-in-screen-button-body3">
+                      <img
+                        src="public/external/icon1291-lik9.svg"
+                        alt="Icon1291"
+                        class="sign-in-screen-icon2"
+                      />
+                      <span class="sign-in-screen-text14">SIGN UP</span>
+                    </button>
+                  </div>
+                  <div class="sign-in-screen-frame-min-width3">
+                    <img
+                      src="public/external/content1291-5r3r-200h.png"
+                      alt="Content1291"
+                      class="sign-in-screen-content3"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="sign-in-screen-profile">
+                <div class="sign-in-screen-width-structure4">
+                  <div class="sign-in-screen-height-structure4">
+                    <button class="sign-in-screen-button-body4">
+                      <img
+                        src="public/external/icon1291-c4ru.svg"
+                        alt="Icon1291"
+                        class="sign-in-screen-icon3"
+                      />
+                      <span class="sign-in-screen-text15">COMPANY</span>
+                    </button>
+                  </div>
+                  <div class="sign-in-screen-frame-min-width4">
+                    <img
+                      src="public/external/content1291-ql0g-200h.png"
+                      alt="Content1291"
+                      class="sign-in-screen-content4"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="sign-in-screen-dashboard">
+                <div class="sign-in-screen-width-structure5">
+                  <div class="sign-in-screen-height-structure5">
+                    <button class="sign-in-screen-button-body5">
+                      <img
+                        src="public/external/icon1291-ylahk.svg"
+                        alt="Icon1291"
+                        class="sign-in-screen-icon4"
+                      />
+                      <span class="sign-in-screen-text16">DASHBOARD</span>
+                    </button>
+                  </div>
+                  <div class="sign-in-screen-frame-min-width5">
+                    <img
+                      src="public/external/content1291-kdis-200h.png"
+                      alt="Content1291"
+                      class="sign-in-screen-content5"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sign-in-screen-logo">
+            <img
+              src="public/external/logo260x7511291-c0hs-200h.png"
+              alt="logo260x7511291"
+              class="sign-in-screen-logo260x751"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="sign-in-screen-inputs">
+        <span class="sign-in-screen-text17">
+          <span class="sign-in-screen-text18">Don't have an</span>
+          <span>account</span>
+          <span class="sign-in-screen-text20">?</span>
+          <span>Sign up</span>
+        </span>
+        <button class="sign-in-screen-frame-button-base2">
+          <div class="sign-in-screen-width-structure6">
+            <div class="sign-in-screen-height-structure6"></div>
+          </div>
+        </button>
+        <button class="sign-in-screen-button-body6">
+          <span class="sign-in-screen-text22">SIGN IN</span>
+        </button>
+      </div>
+      <div class="sign-in-screen-frame-min-width6">
+        <img
+          src="public/external/content1291-q9cq-200h.png"
+          alt="Content1291"
+          class="sign-in-screen-content6"
+        />
+      </div>
+    </div>
+
+    <div class="sign-in-screen-remember-me">
+      <span class="sign-in-screen-text23">Remember me</span>
+      <div class="sign-in-screen-frame-switch-base">
+        <img
+          src="public/external/ellipse11291-3328-200h.png"
+          alt="Ellipse11291"
+          class="sign-in-screen-ellipse1"
+        />
+      </div>
+    </div>
+    <div class="sign-in-screen-password">
+      <div class="sign-in-screen-email1">
+        <div class="sign-in-screen-frame-input-field-text1">
+          <span class="sign-in-screen-text24">Your password</span>
+          <div class="sign-in-screen-frame-min-width7">
+            <img
+              src="public/external/content1291-ex6h-200h.png"
+              alt="Content1291"
+              class="sign-in-screen-content7"
+            />
+          </div>
+        </div>
+      </div>
+      <span class="sign-in-screen-text25">Password</span>
+    </div>
+    <div class="sign-in-screen-email2">
+      <div class="sign-in-screen-email3">
+        <div class="sign-in-screen-frame-input-field-text2">
+          <span class="sign-in-screen-text26">Your email address</span>
+          <div class="sign-in-screen-frame-min-width8">
+            <img
+              src="public/external/content1291-t4uu-200h.png"
+              alt="Content1291"
+              class="sign-in-screen-content8"
+            />
+          </div>
+        </div>
+      </div>
+      <span class="sign-in-screen-text27">Email</span>
+    </div>
+    <div class="sign-in-screen-title">
+      <span class="sign-in-screen-text28">
+        Enter your email and password to sign in
+      </span>
+      <span class="sign-in-screen-text29">Nice to see you!</span>
+    </div>
+  </body>
+</html>

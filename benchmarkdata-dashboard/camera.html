@@ -1,0 +1,1356 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 300vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./camera.css" rel="stylesheet" />
+
+      <div class="cameras-container">
+        <div class="cameras-cameras">
+          <div class="cameras-background1">
+            <img
+              src="public/external/rectangle81292-a0nn-1300h.png"
+              alt="Rectangle81292"
+              class="cameras-rectangle8"
+            />
+            <img
+              src="public/external/rectangle101292-ort-2000w.png"
+              alt="Rectangle101292"
+              class="cameras-rectangle10"
+            />
+            <img
+              src="public/external/wp964993011292-0jw04-2100h.png"
+              alt="wp964993011292"
+              class="cameras-wp96499301"
+            />
+          </div>
+          <div class="cameras-group1000005147">
+            <div class="cameras-frame-input-with-addons">
+              <div class="cameras-autoaddedframe">
+                <div class="cameras-addon">
+                  <img
+                    src="public/external/icon1292-zx6h.svg"
+                    alt="Icon1292"
+                    class="cameras-icon1"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="cameras-group1000005146">
+              <img
+                src="public/external/ioniconppersondefault1292-jmy.svg"
+                alt="IONIconPpersondefault1292"
+                class="cameras-ion-icon-ppersondefault"
+              />
+              <span class="cameras-text10">Account</span>
+            </div>
+            <img
+              src="public/external/ioniconssettingssharp1292-t4b9.svg"
+              alt="IONIconSsettingssharp1292"
+              class="cameras-ion-icon-ssettingssharp"
+            />
+            <img
+              src="public/external/ioniconnnotificationsdefault1292-eofk.svg"
+              alt="IONIconNnotificationsdefault1292"
+              class="cameras-ion-icon-nnotificationsdefault"
+            />
+          </div>
+          <div class="cameras-text11">
+            <span class="cameras-text12">Dashboard</span>
+            <div class="cameras-breadcrumb-item-previous">
+              <span class="cameras-text13">
+                <span class="cameras-text14">Pages</span>
+                <span>/ Dashboard</span>
+              </span>
+            </div>
+          </div>
+          <div class="cameras-sidebar">
+            <div class="cameras-need-help">
+              <div class="cameras-group2">
+                <div class="cameras-background2">
+                  <img
+                    src="public/external/rectangle61292-pk3-300w.png"
+                    alt="Rectangle61292"
+                    class="cameras-rectangle6"
+                  />
+                  <img
+                    src="public/external/richardhorvathnwaetf6qo0unsplash11292-b7ha-500w.png"
+                    alt="richardhorvathnWaeTF6qo0unsplash11292"
+                    class="cameras-richardhorvathn-wae-tf6qo0unsplash1"
+                  />
+                </div>
+                <button class="cameras-frame-button-base">
+                  <div class="cameras-width-structure">
+                    <div class="cameras-height-structure"></div>
+                  </div>
+                </button>
+                <button class="cameras-button-body">
+                  <span class="cameras-text16">SUPPORT 24x7</span>
+                </button>
+              </div>
+              <div class="cameras-frame-min-width">
+                <img
+                  src="public/external/content1292-5xgi-200h.png"
+                  alt="Content1292"
+                  class="cameras-content"
+                />
+              </div>
+            </div>
+
+            <div class="cameras-text17">
+              <span class="cameras-text18">Contact</span>
+              <span class="cameras-text19">Need help?</span>
+            </div>
+            <div class="cameras-icon2">
+              <img
+                src="public/external/ioniconhhelpcircle1292-bczj.svg"
+                alt="IONIconHhelpcircle1292"
+                class="cameras-ion-icon-hhelpcircle"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="cameras-group1000005220">
+          <div class="cameras-sidebar-items">
+            <img
+              src="public/external/linkbackground1292-utsg-200h.png"
+              alt="LinkBackground1292"
+              class="cameras-link-background1"
+            />
+            <span class="cameras-text20">Users</span>
+          </div>
+          <div class="cameras-component5">
+            <img
+              src="public/external/linkbackground1292-azta-200h.png"
+              alt="LinkBackground1292"
+              class="cameras-link-background2"
+            />
+            <span class="cameras-text21">Subscription</span>
+          </div>
+          <div class="cameras-group1000005208">
+            <div class="cameras-group1000005215">
+              <img
+                src="public/external/ioniconsstatschart1292-wccl.svg"
+                alt="IONIconSstatschart1292"
+                class="cameras-ion-icon-sstatschart"
+              />
+            </div>
+            <span class="cameras-text22">Analytics</span>
+          </div>
+          <div class="cameras-group1000005218">
+            <div class="cameras-group1000005213">
+              <img
+                src="public/external/dashboard111292-eri8-200w.png"
+                alt="dashboard111292"
+                class="cameras-dashboard11"
+              />
+            </div>
+            <span class="cameras-text23">Dashboard</span>
+          </div>
+          <div class="cameras-group1000005214">
+            <div class="cameras-group1000005210">
+              <img
+                src="public/external/ioniconbbuilddefault1292-64cu.svg"
+                alt="IONIconBbuilddefault1292"
+                class="cameras-ion-icon-bbuilddefault"
+              />
+            </div>
+            <span class="cameras-text24">Settings</span>
+            <div class="cameras-line-rounded-chevron-down1">
+              <div class="cameras-chevron1">
+                <img
+                  src="public/external/vectori129-pp17.svg"
+                  alt="VectorI129"
+                  class="cameras-vector1"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="cameras-group1000005219">
+            <span class="cameras-text25">Cameras</span>
+            <img
+              src="public/external/polygon11292-h4a7.svg"
+              alt="Polygon11292"
+              class="cameras-polygon1"
+            />
+          </div>
+        </div>
+        <div class="cameras-logo">
+          <img
+            src="public/external/logo260x7511292-veo-200h.png"
+            alt="logo260x7511292"
+            class="cameras-logo260x751"
+          />
+        </div>
+        <img
+          src="public/external/vector61292-gj8.svg"
+          alt="Vector61292"
+          class="cameras-vector6"
+        />
+      </div>
+      <img
+        src="public/external/rectangle59221292-p94c-1000h.png"
+        alt="Rectangle59221292"
+        class="cameras-rectangle5922"
+      />
+      <img
+        src="public/external/rectangle59161292-xht-200h.png"
+        alt="Rectangle59161292"
+        class="cameras-rectangle5916"
+      />
+      <img
+        src="public/external/rectangle59231292-fx5c-200h.png"
+        alt="Rectangle59231292"
+        class="cameras-rectangle5923"
+      />
+      <img
+        src="public/external/rectangle59241292-fqcq-200h.png"
+        alt="Rectangle59241292"
+        class="cameras-rectangle5924"
+      />
+      <img
+        src="public/external/rectangle59251292-0dap-200h.png"
+        alt="Rectangle59251292"
+        class="cameras-rectangle5925"
+      />
+      <img
+        src="public/external/rectangle59271292-hbn-200h.png"
+        alt="Rectangle59271292"
+        class="cameras-rectangle5927"
+      />
+      <img
+        src="public/external/rectangle59261292-5geg-200h.png"
+        alt="Rectangle59261292"
+        class="cameras-rectangle5926"
+      />
+      <img
+        src="public/external/line241292-vmq.svg"
+        alt="Line241292"
+        class="cameras-line24"
+      />
+      <div class="cameras-group1000005083">
+        <div class="cameras-line-rounded-less">
+          <div class="cameras-less">
+            <img
+              src="public/external/vectori129-rqhn.svg"
+              alt="VectorI129"
+              class="cameras-vector2"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="cameras-master-link1">
+        <div class="cameras-frame10000046521">
+          <img
+            src="public/external/iconamoonlink1292-ner.svg"
+            alt="iconamoonlink1292"
+            class="cameras-iconamoonlink"
+          />
+          <span class="cameras-text26">STREAM URL</span>
+        </div>
+      </div>
+      <div class="cameras-group1000005148">
+        <div class="cameras-master-link2">
+          <div class="cameras-frame10000046522">
+            <div class="cameras-mingcutelocationfill">
+              <div class="cameras-group1">
+                <img
+                  src="public/external/vector1292-cl2.svg"
+                  alt="Vector1292"
+                  class="cameras-vector3"
+                />
+              </div>
+            </div>
+            <span class="cameras-text27">LOCATION</span>
+          </div>
+        </div>
+        <div class="cameras-group10000046511">
+          <img
+            src="public/external/lineroundedchevronright1292-6joi.svg"
+            alt="LineRoundedChevronRight1292"
+            class="cameras-line-rounded-chevron-right10"
+          />
+          <img
+            src="public/external/lineroundedchevronright1292-8pai.svg"
+            alt="LineRoundedChevronRight1292"
+            class="cameras-line-rounded-chevron-right11"
+          />
+        </div>
+      </div>
+      <div class="cameras-master-link3">
+        <div class="cameras-frame10000046523">
+          <span class="cameras-text28">ENABLED</span>
+        </div>
+        <div class="cameras-group10000046512">
+          <img
+            src="public/external/lineroundedchevronrighti129-pe7c.svg"
+            alt="LineRoundedChevronRightI129"
+            class="cameras-line-rounded-chevron-right12"
+          />
+          <img
+            src="public/external/lineroundedchevronrighti129-qfj.svg"
+            alt="LineRoundedChevronRightI129"
+            class="cameras-line-rounded-chevron-right13"
+          />
+        </div>
+      </div>
+      <div class="cameras-master-link4">
+        <div class="cameras-frame10000046524">
+          <div class="cameras-custome-icon-users-icon">
+            <div class="cameras-group1000004451">
+              <img
+                src="public/external/rectangle5911i129-4e2c-200h.png"
+                alt="Rectangle5911I129"
+                class="cameras-rectangle5911"
+              />
+              <img
+                src="public/external/vectori129-u9i.svg"
+                alt="VectorI129"
+                class="cameras-vector4"
+              />
+            </div>
+          </div>
+          <span class="cameras-text29">CAMERA ID</span>
+        </div>
+        <div class="cameras-group10000046513">
+          <img
+            src="public/external/lineroundedchevronrighti129-7e4n.svg"
+            alt="LineRoundedChevronRightI129"
+            class="cameras-line-rounded-chevron-right14"
+          />
+          <img
+            src="public/external/lineroundedchevronrighti129-e61.svg"
+            alt="LineRoundedChevronRightI129"
+            class="cameras-line-rounded-chevron-right15"
+          />
+        </div>
+      </div>
+      <div class="cameras-group1000005222">
+        <div class="cameras-master-link5">
+          <div class="cameras-frame10000046525">
+            <span class="cameras-text30">Ai.MODULE</span>
+          </div>
+        </div>
+        <div class="cameras-mingcuteaifill">
+          <div class="cameras-group3">
+            <img
+              src="public/external/vector1292-ntg3.svg"
+              alt="Vector1292"
+              class="cameras-vector5"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="cameras-master-link6">
+        <div class="cameras-frame10000046526">
+          <img
+            src="public/external/customeiconcheckiconi129-9ix.svg"
+            alt="CustomeIconCheckIconI129"
+            class="cameras-custome-icon-check-icon"
+          />
+          <span class="cameras-text31">ACTIONS</span>
+        </div>
+        <div class="cameras-group10000046514">
+          <img
+            src="public/external/lineroundedchevronrighti129-tl9m.svg"
+            alt="LineRoundedChevronRightI129"
+            class="cameras-line-rounded-chevron-right16"
+          />
+          <img
+            src="public/external/lineroundedchevronrighti129-x0g.svg"
+            alt="LineRoundedChevronRightI129"
+            class="cameras-line-rounded-chevron-right17"
+          />
+        </div>
+      </div>
+      <div class="cameras-checkbox10">
+        <div class="cameras-group10000045681">
+          <img
+            src="public/external/lineroundedchecki129-mq1r.svg"
+            alt="LineRoundedCheckI129"
+            class="cameras-line-rounded-check1"
+          />
+        </div>
+      </div>
+      <span class="cameras-text32">Canada</span>
+      <img
+        src="public/external/letsiconscheckfill1292-6xje.svg"
+        alt="letsiconscheckfill1292"
+        class="cameras-letsiconscheckfill10"
+      />
+      <span class="cameras-text33">225388</span>
+      <span class="cameras-text34">Ai.#1: PPE Detection</span>
+      <span class="cameras-text35">
+        rtsp://192.168.0.1:5900/csdkjncjskdc/cam1
+      </span>
+      <div class="cameras-group100000515910">
+        <div class="cameras-group100000506510">
+          <div class="cameras-group100000506110">
+            <div class="cameras-companies-facebook10"></div>
+          </div>
+          <img
+            src="public/external/materialsymbolsedit1292-qjqf.svg"
+            alt="materialsymbolsedit1292"
+            class="cameras-materialsymbolsedit10"
+          />
+        </div>
+        <div class="cameras-group100000515810">
+          <div class="cameras-group100000506111">
+            <div class="cameras-companies-facebook11"></div>
+          </div>
+          <img
+            src="public/external/iconoircancel1292-887h.svg"
+            alt="iconoircancel1292"
+            class="cameras-iconoircancel10"
+          />
+        </div>
+      </div>
+      <div class="cameras-checkbox11">
+        <img
+          src="public/external/rectangle5912i129-zf09-200h.png"
+          alt="Rectangle5912I129"
+          class="cameras-rectangle59121"
+        />
+      </div>
+      <span class="cameras-text36">Canada</span>
+      <img
+        src="public/external/letsiconscheckfill1292-c8ql.svg"
+        alt="letsiconscheckfill1292"
+        class="cameras-letsiconscheckfill11"
+      />
+      <span class="cameras-text37">225388</span>
+      <span class="cameras-text38">Ai.#1: PPE Detection</span>
+      <span class="cameras-text39">Jhon</span>
+      <div class="cameras-group100000515911">
+        <div class="cameras-group100000506511">
+          <div class="cameras-group100000506112">
+            <div class="cameras-companies-facebook12"></div>
+          </div>
+          <img
+            src="public/external/materialsymbolsedit1292-q8er.svg"
+            alt="materialsymbolsedit1292"
+            class="cameras-materialsymbolsedit11"
+          />
+        </div>
+        <div class="cameras-group100000515811">
+          <div class="cameras-group100000506113">
+            <div class="cameras-companies-facebook13"></div>
+          </div>
+          <img
+            src="public/external/iconoircancel1292-5q37.svg"
+            alt="iconoircancel1292"
+            class="cameras-iconoircancel11"
+          />
+        </div>
+      </div>
+      <div class="cameras-checkbox12">
+        <div class="cameras-group10000045682">
+          <img
+            src="public/external/lineroundedchecki129-0t5.svg"
+            alt="LineRoundedCheckI129"
+            class="cameras-line-rounded-check2"
+          />
+        </div>
+      </div>
+      <span class="cameras-text40">Canada</span>
+      <img
+        src="public/external/letsiconscheckfill1292-0xim.svg"
+        alt="letsiconscheckfill1292"
+        class="cameras-letsiconscheckfill12"
+      />
+      <span class="cameras-text41">225388</span>
+      <span class="cameras-text42">Ai.#1: PPE Detection</span>
+      <span class="cameras-text43">Jhon</span>
+      <div class="cameras-group100000515912">
+        <div class="cameras-group100000506512">
+          <div class="cameras-group100000506114">
+            <div class="cameras-companies-facebook14"></div>
+          </div>
+          <img
+            src="public/external/materialsymbolsedit1292-y1yc.svg"
+            alt="materialsymbolsedit1292"
+            class="cameras-materialsymbolsedit12"
+          />
+        </div>
+        <div class="cameras-group100000515812">
+          <div class="cameras-group100000506115">
+            <div class="cameras-companies-facebook15"></div>
+          </div>
+          <img
+            src="public/external/iconoircancel1292-ue64.svg"
+            alt="iconoircancel1292"
+            class="cameras-iconoircancel12"
+          />
+        </div>
+      </div>
+      <div class="cameras-checkbox13">
+        <img
+          src="public/external/rectangle5912i129-tjdk-200h.png"
+          alt="Rectangle5912I129"
+          class="cameras-rectangle59122"
+        />
+      </div>
+      <span class="cameras-text44">Canada</span>
+      <img
+        src="public/external/letsiconscheckfill1292-dakg.svg"
+        alt="letsiconscheckfill1292"
+        class="cameras-letsiconscheckfill13"
+      />
+      <span class="cameras-text45">225388</span>
+      <span class="cameras-text46">Ai.#1: PPE Detection</span>
+      <span class="cameras-text47">Jhon</span>
+      <div class="cameras-group100000515913">
+        <div class="cameras-group100000506513">
+          <div class="cameras-group100000506116">
+            <div class="cameras-companies-facebook16"></div>
+          </div>
+          <img
+            src="public/external/materialsymbolsedit1292-3my7.svg"
+            alt="materialsymbolsedit1292"
+            class="cameras-materialsymbolsedit13"
+          />
+        </div>
+        <div class="cameras-group100000515813">
+          <div class="cameras-group100000506117">
+            <div class="cameras-companies-facebook17"></div>
+          </div>
+          <img
+            src="public/external/iconoircancel1292-8qv.svg"
+            alt="iconoircancel1292"
+            class="cameras-iconoircancel13"
+          />
+        </div>
+      </div>
+      <div class="cameras-checkbox14">
+        <div class="cameras-group10000045683">
+          <img
+            src="public/external/lineroundedchecki129-e47.svg"
+            alt="LineRoundedCheckI129"
+            class="cameras-line-rounded-check3"
+          />
+        </div>
+      </div>
+      <span class="cameras-text48">Canada</span>
+      <img
+        src="public/external/letsiconscheckfill1292-6uff.svg"
+        alt="letsiconscheckfill1292"
+        class="cameras-letsiconscheckfill14"
+      />
+      <span class="cameras-text49">225388</span>
+      <span class="cameras-text50">Ai.#1: PPE Detection</span>
+      <span class="cameras-text51">Jhon</span>
+      <div class="cameras-group100000515914">
+        <div class="cameras-group100000506514">
+          <div class="cameras-group100000506118">
+            <div class="cameras-companies-facebook18"></div>
+          </div>
+          <img
+            src="public/external/materialsymbolsedit1292-rfd4.svg"
+            alt="materialsymbolsedit1292"
+            class="cameras-materialsymbolsedit14"
+          />
+        </div>
+        <div class="cameras-group100000515814">
+          <div class="cameras-group100000506119">
+            <div class="cameras-companies-facebook19"></div>
+          </div>
+          <img
+            src="public/external/iconoircancel1292-ab1o.svg"
+            alt="iconoircancel1292"
+            class="cameras-iconoircancel14"
+          />
+        </div>
+      </div>
+      <div class="cameras-checkbox15">
+        <img
+          src="public/external/rectangle5912i129-nftb-200h.png"
+          alt="Rectangle5912I129"
+          class="cameras-rectangle59123"
+        />
+      </div>
+      <span class="cameras-text52">Canada</span>
+      <img
+        src="public/external/letsiconscheckfill1292-pkx.svg"
+        alt="letsiconscheckfill1292"
+        class="cameras-letsiconscheckfill15"
+      />
+      <span class="cameras-text53">225388</span>
+      <span class="cameras-text54">Ai.#1: PPE Detection</span>
+      <span class="cameras-text55">Jhon</span>
+      <div class="cameras-group100000515915">
+        <div class="cameras-group100000506515">
+          <div class="cameras-group100000506120">
+            <div class="cameras-companies-facebook20"></div>
+          </div>
+          <img
+            src="public/external/materialsymbolsedit1292-4oz.svg"
+            alt="materialsymbolsedit1292"
+            class="cameras-materialsymbolsedit15"
+          />
+        </div>
+        <div class="cameras-group100000515815">
+          <div class="cameras-group100000506121">
+            <div class="cameras-companies-facebook21"></div>
+          </div>
+          <img
+            src="public/external/iconoircancel1292-49pm.svg"
+            alt="iconoircancel1292"
+            class="cameras-iconoircancel15"
+          />
+        </div>
+      </div>
+      <div class="cameras-checkbox16">
+        <div class="cameras-group10000045684">
+          <img
+            src="public/external/lineroundedchecki129-h6t7.svg"
+            alt="LineRoundedCheckI129"
+            class="cameras-line-rounded-check4"
+          />
+        </div>
+      </div>
+      <span class="cameras-text56">Canada</span>
+      <img
+        src="public/external/letsiconscheckfill1292-6ldij.svg"
+        alt="letsiconscheckfill1292"
+        class="cameras-letsiconscheckfill16"
+      />
+      <span class="cameras-text57">225388</span>
+      <span class="cameras-text58">Ai.#1: PPE Detection</span>
+      <span class="cameras-text59">Jhon</span>
+      <div class="cameras-group100000515916">
+        <div class="cameras-group100000506516">
+          <div class="cameras-group100000506122">
+            <div class="cameras-companies-facebook22"></div>
+          </div>
+          <img
+            src="public/external/materialsymbolsedit1292-bdhc.svg"
+            alt="materialsymbolsedit1292"
+            class="cameras-materialsymbolsedit16"
+          />
+        </div>
+        <div class="cameras-group100000515816">
+          <div class="cameras-group100000506123">
+            <div class="cameras-companies-facebook23"></div>
+          </div>
+          <img
+            src="public/external/iconoircancel1293-pk3x.svg"
+            alt="iconoircancel1293"
+            class="cameras-iconoircancel16"
+          />
+        </div>
+      </div>
+      <div class="cameras-checkbox17">
+        <img
+          src="public/external/rectangle5912i129-f6gh-200h.png"
+          alt="Rectangle5912I129"
+          class="cameras-rectangle59124"
+        />
+      </div>
+      <span class="cameras-text60">Canada</span>
+      <img
+        src="public/external/letsiconscheckfill1293-ddrh.svg"
+        alt="letsiconscheckfill1293"
+        class="cameras-letsiconscheckfill17"
+      />
+      <span class="cameras-text61">225388</span>
+      <span class="cameras-text62">Ai.#1: PPE Detection</span>
+      <span class="cameras-text63">Jhon</span>
+      <div class="cameras-group100000515917">
+        <div class="cameras-group100000506517">
+          <div class="cameras-group100000506124">
+            <div class="cameras-companies-facebook24"></div>
+          </div>
+          <img
+            src="public/external/materialsymbolsedit1293-jl3n.svg"
+            alt="materialsymbolsedit1293"
+            class="cameras-materialsymbolsedit17"
+          />
+        </div>
+        <div class="cameras-group100000515817">
+          <div class="cameras-group100000506125">
+            <div class="cameras-companies-facebook25"></div>
+          </div>
+          <img
+            src="public/external/iconoircancel1293-alme.svg"
+            alt="iconoircancel1293"
+            class="cameras-iconoircancel17"
+          />
+        </div>
+      </div>
+      <div class="cameras-checkbox18">
+        <img
+          src="public/external/rectangle5912i129-piqq-200h.png"
+          alt="Rectangle5912I129"
+          class="cameras-rectangle59125"
+        />
+      </div>
+      <span class="cameras-text64">Canada</span>
+      <img
+        src="public/external/letsiconscheckfill1293-h3t.svg"
+        alt="letsiconscheckfill1293"
+        class="cameras-letsiconscheckfill18"
+      />
+      <span class="cameras-text65">225388</span>
+      <span class="cameras-text66">Ai.#1: PPE Detection</span>
+      <span class="cameras-text67">Jhon</span>
+      <div class="cameras-group100000515918">
+        <div class="cameras-group100000506518">
+          <div class="cameras-group100000506126">
+            <div class="cameras-companies-facebook26"></div>
+          </div>
+          <img
+            src="public/external/materialsymbolsedit1293-c749.svg"
+            alt="materialsymbolsedit1293"
+            class="cameras-materialsymbolsedit18"
+          />
+        </div>
+        <div class="cameras-group100000515818">
+          <div class="cameras-group100000506127">
+            <div class="cameras-companies-facebook27"></div>
+          </div>
+          <img
+            src="public/external/iconoircancel1293-v9m5.svg"
+            alt="iconoircancel1293"
+            class="cameras-iconoircancel18"
+          />
+        </div>
+      </div>
+      <div class="cameras-checkbox19">
+        <img
+          src="public/external/rectangle5912i129-1vwl-200h.png"
+          alt="Rectangle5912I129"
+          class="cameras-rectangle59126"
+        />
+      </div>
+      <span class="cameras-text68">Canada</span>
+      <img
+        src="public/external/letsiconscheckfill1293-iwpi.svg"
+        alt="letsiconscheckfill1293"
+        class="cameras-letsiconscheckfill19"
+      />
+      <span class="cameras-text69">225388</span>
+      <span class="cameras-text70">Ai.#1: PPE Detection</span>
+      <span class="cameras-text71">Jhon</span>
+      <div class="cameras-group100000515919">
+        <div class="cameras-group100000506519">
+          <div class="cameras-group100000506128">
+            <div class="cameras-companies-facebook28"></div>
+          </div>
+          <img
+            src="public/external/materialsymbolsedit1293-glv.svg"
+            alt="materialsymbolsedit1293"
+            class="cameras-materialsymbolsedit19"
+          />
+        </div>
+        <div class="cameras-group100000515819">
+          <div class="cameras-group100000506129">
+            <div class="cameras-companies-facebook29"></div>
+          </div>
+          <img
+            src="public/external/iconoircancel1293-c6s.svg"
+            alt="iconoircancel1293"
+            class="cameras-iconoircancel19"
+          />
+        </div>
+      </div>
+      <div class="cameras-checkbox20">
+        <img
+          src="public/external/rectangle5912i129-9thn-200h.png"
+          alt="Rectangle5912I129"
+          class="cameras-rectangle59127"
+        />
+      </div>
+      <span class="cameras-text72">Canada</span>
+      <img
+        src="public/external/letsiconscheckfill1293-o8jx.svg"
+        alt="letsiconscheckfill1293"
+        class="cameras-letsiconscheckfill20"
+      />
+      <span class="cameras-text73">225388</span>
+      <span class="cameras-text74">Ai.#1: PPE Detection</span>
+      <div class="cameras-group1000005223">
+        <img
+          src="public/external/fluentlive20filled1293-tgpf.svg"
+          alt="fluentlive20filled1293"
+          class="cameras-fluentlive20filled"
+        />
+        <div class="cameras-master-link7">
+          <div class="cameras-frame10000046527">
+            <span class="cameras-text75">LIVE</span>
+          </div>
+          <div class="cameras-group10000046515">
+            <img
+              src="public/external/lineroundedchevronrighti129-cdp.svg"
+              alt="LineRoundedChevronRightI129"
+              class="cameras-line-rounded-chevron-right18"
+            />
+            <img
+              src="public/external/lineroundedchevronrighti129-zj4l.svg"
+              alt="LineRoundedChevronRightI129"
+              class="cameras-line-rounded-chevron-right19"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="cameras-letsiconscheckfill21">
+        <img
+          src="public/external/ellipse911293-6lel-200h.png"
+          alt="Ellipse911293"
+          class="cameras-ellipse9110"
+        />
+      </div>
+      <div class="cameras-letsiconscheckfill22">
+        <img
+          src="public/external/ellipse911293-q3bf-200h.png"
+          alt="Ellipse911293"
+          class="cameras-ellipse9111"
+        />
+      </div>
+      <div class="cameras-letsiconscheckfill23">
+        <img
+          src="public/external/ellipse911293-cckb-200h.png"
+          alt="Ellipse911293"
+          class="cameras-ellipse9112"
+        />
+      </div>
+      <div class="cameras-letsiconscheckfill24">
+        <img
+          src="public/external/ellipse911293-dwa-200h.png"
+          alt="Ellipse911293"
+          class="cameras-ellipse9113"
+        />
+      </div>
+      <div class="cameras-letsiconscheckfill25">
+        <img
+          src="public/external/ellipse911293-2yep-200h.png"
+          alt="Ellipse911293"
+          class="cameras-ellipse9114"
+        />
+      </div>
+      <div class="cameras-letsiconscheckfill26">
+        <img
+          src="public/external/ellipse911293-pf7g-200h.png"
+          alt="Ellipse911293"
+          class="cameras-ellipse9115"
+        />
+      </div>
+      <div class="cameras-letsiconscheckfill27">
+        <img
+          src="public/external/ellipse911293-ywr-200h.png"
+          alt="Ellipse911293"
+          class="cameras-ellipse9116"
+        />
+      </div>
+      <div class="cameras-letsiconscheckfill28">
+        <img
+          src="public/external/ellipse911293-iqsc-200h.png"
+          alt="Ellipse911293"
+          class="cameras-ellipse9117"
+        />
+      </div>
+      <div class="cameras-letsiconscheckfill29">
+        <img
+          src="public/external/ellipse911293-y8t6re-200h.png"
+          alt="Ellipse911293"
+          class="cameras-ellipse9118"
+        />
+      </div>
+      <div class="cameras-letsiconscheckfill30">
+        <img
+          src="public/external/ellipse911293-mkl-200h.png"
+          alt="Ellipse911293"
+          class="cameras-ellipse9119"
+        />
+      </div>
+      <div class="cameras-letsiconscheckfill31">
+        <img
+          src="public/external/ellipse911293-2ba9-200h.png"
+          alt="Ellipse911293"
+          class="cameras-ellipse9120"
+        />
+      </div>
+      <span class="cameras-text76">Jhon</span>
+      <div class="cameras-group100000515920">
+        <div class="cameras-group100000506520">
+          <div class="cameras-group100000506130">
+            <div class="cameras-companies-facebook30"></div>
+          </div>
+          <img
+            src="public/external/materialsymbolsedit1293-p1hs.svg"
+            alt="materialsymbolsedit1293"
+            class="cameras-materialsymbolsedit20"
+          />
+        </div>
+        <div class="cameras-group100000515820">
+          <div class="cameras-group100000506131">
+            <div class="cameras-companies-facebook31"></div>
+          </div>
+          <img
+            src="public/external/iconoircancel1293-l73d.svg"
+            alt="iconoircancel1293"
+            class="cameras-iconoircancel20"
+          />
+        </div>
+      </div>
+      <button class="cameras-primary-button1"></button>
+      <button class="cameras-master-primary-button1">
+        <span class="cameras-text77">Delete All</span>
+        <div class="cameras-line-rounded-chevron-down2">
+          <div class="cameras-chevron2">
+            <img
+              src="public/external/vectori129-yczx.svg"
+              alt="VectorI129"
+              class="cameras-vector7"
+            />
+          </div>
+        </div>
+      </button>
+
+      <button class="cameras-primary-button2"></button>
+      <button class="cameras-master-primary-button2">
+        <span class="cameras-text78">Add Camera</span>
+      </button>
+
+      <div class="cameras-control1">
+        <span class="cameras-text79">Prev</span>
+      </div>
+      <div class="cameras-page1"></div>
+      <div class="cameras-page2"></div>
+      <div class="cameras-page3"></div>
+      <div class="cameras-page4"><span class="cameras-text80">...</span></div>
+      <div class="cameras-page5"><span class="cameras-text81">10</span></div>
+      <div class="cameras-control2">
+        <span class="cameras-text82">Next</span>
+      </div>
+      <img
+        src="public/external/input1293-mcm6-200h.png"
+        alt="Input1293"
+        class="cameras-input"
+      />
+      <div class="cameras-group1000005171">
+        <div class="cameras-input-icon-left">
+          <div class="cameras-search">
+            <img
+              src="public/external/vectori129-rxmj.svg"
+              alt="VectorI129"
+              class="cameras-vector8"
+            />
+            <img
+              src="public/external/vectori129-naq.svg"
+              alt="VectorI129"
+              class="cameras-vector9"
+            />
+          </div>
+        </div>
+        <span class="cameras-text83">Search for...</span>
+      </div>
+    </div>
+  </body>
+</html>

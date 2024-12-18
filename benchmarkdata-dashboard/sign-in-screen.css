@@ -1,0 +1,885 @@
+.sign-in-screen-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.sign-in-screen-sign-in-screen {
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.sign-in-screen-new-design {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 1080px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.sign-in-screen-main-dashboard {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 1080px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.sign-in-screen-background1 {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 1080px;
+  display: flex;
+  position: absolute;
+  background: linear-gradient(163deg, rgba(15, 18, 59, 1) 0%, rgba(8, 12, 45, 1) 59%, rgba(2, 5, 21, 1) 100%);
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.sign-in-screen-footer-menu {
+  top: 922.89013671875px;
+  left: 1015px;
+  width: 0px;
+  height: 0px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.sign-in-screen-image {
+  top: 0px;
+  left: 0px;
+  width: 960px;
+  height: 1080px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.sign-in-screen-group122 {
+  top: 0px;
+  left: 0px;
+  width: 960px;
+  height: 1080px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(79, 209, 197, 1);
+}
+ 
+.sign-in-screen-rectangle54 {
+  top: 0px;
+  left: 0px;
+  width: 960px;
+  height: 1080px;
+  position: absolute;
+}
+ 
+.sign-in-screen-sandrokatalinak1b-ov-ti-z-ssunsplash21 {
+  top: -218.72093200683594px;
+  left: -589px;
+  width: 2110px;
+  height: 1390px;
+  position: absolute;
+}
+ 
+.sign-in-screen-text10 {
+  top: 498.0000305175781px;
+  left: 237px;
+  width: 502px;
+  height: 135.1395263671875px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.sign-in-screen-text11 {
+  color: rgba(255, 255, 255, 1);
+  width: 502px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.sign-in-screen-group1000005119 {
+  top: 30px;
+  left: 439px;
+  width: 1042px;
+  height: 70px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.sign-in-screen-menu {
+  top: 0px;
+  left: 0px;
+  width: 1042px;
+  height: 70px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.sign-in-screen-background2 {
+  top: 0px;
+  left: 0px;
+  width: 1042px;
+  height: 70px;
+  display: flex;
+  position: absolute;
+  background: linear-gradient(141deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.38999998569488525) 100%);
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.sign-in-screen-frame-button-base1 {
+  top: 18px;
+  left: 844px;
+  width: 150px;
+  height: 34.969051361083984px;
+  display: flex;
+  padding: 0 7.999999523162842px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  justify-content: center;
+  background-color: rgba(0, 117, 255, 1);
+}
+ 
+.sign-in-screen-width-structure1 {
+  height: 24.004762649536133px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.sign-in-screen-height-structure1 {
+  height: 24px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.sign-in-screen-button-body1 {
+  gap: 4px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+}
+ 
+.sign-in-screen-text12 {
+  color: rgba(255, 255, 255, 1);
+  width: 89px;
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.sign-in-screen-frame-min-width1 {
+  display: flex;
+  padding: 0 12.000000953674316px;
+  overflow: hidden;
+  align-items: flex-start;
+}
+ 
+.sign-in-screen-content1 {
+  width: 0px;
+  height: 0px;
+}
+ 
+.sign-in-screen-pages {
+  top: 24px;
+  left: 316px;
+  width: 468px;
+  height: 22.48011016845703px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.sign-in-screen-group1000005118 {
+  top: 0px;
+  left: 0px;
+  width: 468px;
+  height: 22.48011016845703px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.sign-in-screen-sign-in {
+  top: 0px;
+  left: 377px;
+  height: 22.480106353759766px;
+  display: flex;
+  padding: 0 8px;
+  position: absolute;
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12.000000953674316px;
+  justify-content: center;
+}
+ 
+.sign-in-screen-width-structure2 {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.sign-in-screen-height-structure2 {
+  height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.sign-in-screen-button-body2 {
+  gap: 4px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.sign-in-screen-icon1 {
+  width: 16px;
+  height: 16px;
+}
+ 
+.sign-in-screen-text13 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.sign-in-screen-frame-min-width2 {
+  display: flex;
+  padding: 0 12.000000953674316px;
+  overflow: hidden;
+  align-items: flex-start;
+}
+ 
+.sign-in-screen-content2 {
+  width: 0px;
+  height: 0px;
+}
+ 
+.sign-in-screen-sign-up {
+  top: 0px;
+  left: 264px;
+  height: 22.480106353759766px;
+  display: flex;
+  padding: 0 8px;
+  position: absolute;
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12.000000953674316px;
+  justify-content: center;
+}
+ 
+.sign-in-screen-width-structure3 {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.sign-in-screen-height-structure3 {
+  height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.sign-in-screen-button-body3 {
+  gap: 4px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.sign-in-screen-icon2 {
+  width: 16px;
+  height: 16px;
+}
+ 
+.sign-in-screen-text14 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.sign-in-screen-frame-min-width3 {
+  display: flex;
+  padding: 0 12.000000953674316px;
+  overflow: hidden;
+  align-items: flex-start;
+}
+ 
+.sign-in-screen-content3 {
+  width: 0px;
+  height: 0px;
+}
+ 
+.sign-in-screen-profile {
+  top: 0px;
+  left: 139px;
+  height: 22.480106353759766px;
+  display: flex;
+  padding: 0 8px;
+  position: absolute;
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12.000000953674316px;
+  justify-content: center;
+}
+ 
+.sign-in-screen-width-structure4 {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.sign-in-screen-height-structure4 {
+  height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.sign-in-screen-button-body4 {
+  gap: 4px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.sign-in-screen-icon3 {
+  width: 16px;
+  height: 16px;
+}
+ 
+.sign-in-screen-text15 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.sign-in-screen-frame-min-width4 {
+  display: flex;
+  padding: 0 12.000000953674316px;
+  overflow: hidden;
+  align-items: flex-start;
+}
+ 
+.sign-in-screen-content4 {
+  width: 0px;
+  height: 0px;
+}
+ 
+.sign-in-screen-dashboard {
+  top: 0px;
+  left: 0px;
+  height: 22.48011016845703px;
+  display: flex;
+  padding: 0 8px;
+  position: absolute;
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12.000000953674316px;
+  justify-content: center;
+}
+ 
+.sign-in-screen-width-structure5 {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.sign-in-screen-height-structure5 {
+  height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.sign-in-screen-button-body5 {
+  gap: 4px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.sign-in-screen-icon4 {
+  width: 16px;
+  height: 16px;
+}
+ 
+.sign-in-screen-text16 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.sign-in-screen-frame-min-width5 {
+  display: flex;
+  padding: 0 12.000000953674316px;
+  overflow: hidden;
+  align-items: flex-start;
+}
+ 
+.sign-in-screen-content5 {
+  width: 0px;
+  height: 0px;
+}
+ 
+.sign-in-screen-logo {
+  top: 11px;
+  left: 48px;
+  width: 208px;
+  height: 48px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.sign-in-screen-logo260x751 {
+  top: 0px;
+  left: 0px;
+  width: 208px;
+  height: 48px;
+  position: absolute;
+}
+ 
+.sign-in-screen-inputs {
+  top: 285px;
+  left: 1080px;
+  width: 450px;
+  height: 438.51806640625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.sign-in-screen-text17 {
+  top: 418.51806640625px;
+  left: 123px;
+  color: rgba(160, 174, 192, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14.000000953674316px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.sign-in-screen-text18 {
+  color: var(--dl-color-gray-gray400);
+}
+ 
+.sign-in-screen-text20 {
+  color: var(--dl-color-gray-gray400);
+}
+ 
+.sign-in-screen-frame-button-base2 {
+  top: 349.51806640625px;
+  left: 0px;
+  width: 450px;
+  height: 45px;
+  display: flex;
+  padding: 0 7.999999523162842px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  justify-content: center;
+  background-color: rgba(0, 117, 255, 1);
+}
+ 
+.sign-in-screen-width-structure6 {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.sign-in-screen-height-structure6 {
+  height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.sign-in-screen-button-body6 {
+  gap: 4px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+}
+ 
+.sign-in-screen-text22 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 9.999999046325684px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.sign-in-screen-frame-min-width6 {
+  display: flex;
+  padding: 0 12.000000953674316px;
+  overflow: hidden;
+  align-items: flex-start;
+}
+ 
+.sign-in-screen-content6 {
+  width: 0px;
+  height: 0px;
+}
+ 
+.sign-in-screen-remember-me {
+  top: 307px;
+  left: 0px;
+  width: 130px;
+  height: 18.518112182617188px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.sign-in-screen-text23 {
+  top: 0.5181121826171875px;
+  left: 46px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12.000000953674316px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.sign-in-screen-frame-switch-base {
+  gap: 9.342769622802734px;
+  top: 0px;
+  left: 0px;
+  width: 36px;
+  height: 18.483642578125px;
+  display: flex;
+  padding: 1.4373492002487183px 2.5px 1.4373492002487183px 1.4373492002487183px;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-end;
+  flex-shrink: 0;
+  border-radius: 97.73973083496094px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 117, 255, 1);
+}
+ 
+.sign-in-screen-ellipse1 {
+  width: 13px;
+  height: 13px;
+}
+ 
+.sign-in-screen-password {
+  top: 200px;
+  left: 0px;
+  width: 450px;
+  height: 75px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.sign-in-screen-email1 {
+  top: 25px;
+  left: 0px;
+  width: 450px;
+  height: 50px;
+  display: flex;
+  padding: 0 20px;
+  overflow: hidden;
+  position: absolute;
+  background: linear-gradient(134deg, rgba(255, 255, 255, 0.10000000149011612) 0%, rgba(255, 255, 255, 0.10000000149011612) 100%);
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 12px;
+}
+ 
+.sign-in-screen-frame-input-field-text1 {
+  width: 311px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.sign-in-screen-text24 {
+  color: var(--dl-color-gray-gray400);
+  height: auto;
+  font-size: 13.999999046325684px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.sign-in-screen-frame-min-width7 {
+  display: flex;
+  padding: 0 74px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.sign-in-screen-content7 {
+  width: 0px;
+  height: 0px;
+}
+ 
+.sign-in-screen-text25 {
+  left: 4.499805450439453px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14.000000953674316px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.sign-in-screen-email2 {
+  top: 101px;
+  left: 0px;
+  width: 450px;
+  height: 75px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.sign-in-screen-email3 {
+  top: 25px;
+  left: 0px;
+  width: 450px;
+  height: 50px;
+  display: flex;
+  padding: 0 20px;
+  overflow: hidden;
+  position: absolute;
+  background: linear-gradient(134deg, rgba(255, 255, 255, 0.10000000149011612) 0%, rgba(255, 255, 255, 0.10000000149011612) 100%);
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 12px;
+}
+ 
+.sign-in-screen-frame-input-field-text2 {
+  width: 311px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.sign-in-screen-text26 {
+  color: var(--dl-color-gray-gray400);
+  height: auto;
+  font-size: 13.999999046325684px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.sign-in-screen-frame-min-width8 {
+  display: flex;
+  padding: 0 74px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.sign-in-screen-content8 {
+  width: 0px;
+  height: 0px;
+}
+ 
+.sign-in-screen-text27 {
+  left: 4.499805450439453px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14.000000953674316px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.sign-in-screen-title {
+  top: 0px;
+  left: 0.00016021728515625px;
+  width: 266px;
+  height: 65.5px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.sign-in-screen-text28 {
+  top: 45.5px;
+  color: var(--dl-color-gray-gray400);
+  height: auto;
+  position: absolute;
+  font-size: 14.000000953674316px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.sign-in-screen-text29 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}

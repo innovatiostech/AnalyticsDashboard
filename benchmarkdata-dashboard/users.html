@@ -1,0 +1,1734 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 300vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./subscriptions.css" rel="stylesheet" />
+
+      <div class="subscriptions-container">
+        <div class="subscriptions-subscriptions">
+          <div class="subscriptions-background1">
+            <img
+              src="public/external/rectangle81293-71ml-1300h.png"
+              alt="Rectangle81293"
+              class="subscriptions-rectangle8"
+            />
+            <img
+              src="public/external/rectangle101293-cdrd-2000w.png"
+              alt="Rectangle101293"
+              class="subscriptions-rectangle10"
+            />
+            <img
+              src="public/external/wp964993011293-u3r5-2100h.png"
+              alt="wp964993011293"
+              class="subscriptions-wp96499301"
+            />
+          </div>
+          <div class="subscriptions-group1000005147">
+            <div class="subscriptions-frame-input-with-addons">
+              <div class="subscriptions-autoaddedframe">
+                <div class="subscriptions-addon">
+                  <img
+                    src="public/external/icon1293-k1b.svg"
+                    alt="Icon1293"
+                    class="subscriptions-icon1"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="subscriptions-group1000005146">
+              <img
+                src="public/external/ioniconppersondefault1293-s7q.svg"
+                alt="IONIconPpersondefault1293"
+                class="subscriptions-ion-icon-ppersondefault"
+              />
+              <span class="subscriptions-text10">Account</span>
+            </div>
+            <img
+              src="public/external/ioniconssettingssharp1293-1ipd.svg"
+              alt="IONIconSsettingssharp1293"
+              class="subscriptions-ion-icon-ssettingssharp"
+            />
+            <img
+              src="public/external/ioniconnnotificationsdefault1293-5tr.svg"
+              alt="IONIconNnotificationsdefault1293"
+              class="subscriptions-ion-icon-nnotificationsdefault"
+            />
+          </div>
+          <div class="subscriptions-text11">
+            <span class="subscriptions-text12">Dashboard</span>
+            <div class="subscriptions-breadcrumb-item-previous">
+              <span class="subscriptions-text13">
+                <span class="subscriptions-text14">Pages</span>
+                <span>/ Dashboard</span>
+              </span>
+            </div>
+          </div>
+          <div class="subscriptions-sidebar">
+            <div class="subscriptions-need-help">
+              <div class="subscriptions-group2">
+                <div class="subscriptions-background2">
+                  <img
+                    src="public/external/rectangle61293-rzah-300w.png"
+                    alt="Rectangle61293"
+                    class="subscriptions-rectangle6"
+                  />
+                  <img
+                    src="public/external/richardhorvathnwaetf6qo0unsplash11293-nw2s-500w.png"
+                    alt="richardhorvathnWaeTF6qo0unsplash11293"
+                    class="subscriptions-richardhorvathn-wae-tf6qo0unsplash1"
+                  />
+                </div>
+                <button class="subscriptions-frame-button-base">
+                  <div class="subscriptions-width-structure">
+                    <div class="subscriptions-height-structure"></div>
+                  </div>
+                </button>
+                <button class="subscriptions-button-body">
+                  <span class="subscriptions-text16">SUPPORT 24x7</span>
+                </button>
+              </div>
+              <div class="subscriptions-frame-min-width">
+                <img
+                  src="public/external/content1293-ktqj-200h.png"
+                  alt="Content1293"
+                  class="subscriptions-content"
+                />
+              </div>
+            </div>
+
+            <div class="subscriptions-text17">
+              <span class="subscriptions-text18">Contact</span>
+              <span class="subscriptions-text19">Need help?</span>
+            </div>
+            <div class="subscriptions-icon2">
+              <img
+                src="public/external/ioniconhhelpcircle1293-gtg.svg"
+                alt="IONIconHhelpcircle1293"
+                class="subscriptions-ion-icon-hhelpcircle"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="subscriptions-logo">
+          <img
+            src="public/external/logo260x7511293-qzs-200h.png"
+            alt="logo260x7511293"
+            class="subscriptions-logo260x751"
+          />
+        </div>
+        <img
+          src="public/external/vector61293-pek9.svg"
+          alt="Vector61293"
+          class="subscriptions-vector6"
+        />
+        <div class="subscriptions-group1000005221">
+          <div class="subscriptions-sidebar-items">
+            <img
+              src="public/external/linkbackground1293-jpxo-200h.png"
+              alt="LinkBackground1293"
+              class="subscriptions-link-background1"
+            />
+            <span class="subscriptions-text20">Users</span>
+          </div>
+          <div class="subscriptions-component5">
+            <img
+              src="public/external/linkbackground1293-wjuf-200h.png"
+              alt="LinkBackground1293"
+              class="subscriptions-link-background2"
+            />
+            <span class="subscriptions-text21">Subscription</span>
+          </div>
+          <div class="subscriptions-group1000005208">
+            <div class="subscriptions-group1000005215">
+              <img
+                src="public/external/ioniconsstatschart1293-ewl.svg"
+                alt="IONIconSstatschart1293"
+                class="subscriptions-ion-icon-sstatschart"
+              />
+            </div>
+            <span class="subscriptions-text22">Analytics</span>
+          </div>
+          <div class="subscriptions-group1000005218">
+            <div class="subscriptions-group1000005213">
+              <img
+                src="public/external/dashboard111293-hh9n-200w.png"
+                alt="dashboard111293"
+                class="subscriptions-dashboard11"
+              />
+            </div>
+            <span class="subscriptions-text23">Dashboard</span>
+          </div>
+          <div class="subscriptions-group1000005214">
+            <div class="subscriptions-group1000005210">
+              <img
+                src="public/external/ioniconbbuilddefault1293-uec.svg"
+                alt="IONIconBbuilddefault1293"
+                class="subscriptions-ion-icon-bbuilddefault"
+              />
+            </div>
+            <span class="subscriptions-text24">Settings</span>
+            <div class="subscriptions-line-rounded-chevron-down1">
+              <div class="subscriptions-chevron1">
+                <img
+                  src="public/external/vectori129-h3q7.svg"
+                  alt="VectorI129"
+                  class="subscriptions-vector10"
+                />
+              </div>
+            </div>
+          </div>
+          <span class="subscriptions-text25">Cameras</span>
+          <img
+            src="public/external/polygon11293-4uhp.svg"
+            alt="Polygon11293"
+            class="subscriptions-polygon1"
+          />
+        </div>
+      </div>
+      <div class="subscriptions-group1000005198">
+        <img
+          src="public/external/rectangle59161293-rf2y-200h.png"
+          alt="Rectangle59161293"
+          class="subscriptions-rectangle5916"
+        />
+        <img
+          src="public/external/rectangle59231293-ft8-200h.png"
+          alt="Rectangle59231293"
+          class="subscriptions-rectangle5923"
+        />
+        <img
+          src="public/external/rectangle59241293-whi-200h.png"
+          alt="Rectangle59241293"
+          class="subscriptions-rectangle5924"
+        />
+        <img
+          src="public/external/rectangle59251293-hol4-200h.png"
+          alt="Rectangle59251293"
+          class="subscriptions-rectangle5925"
+        />
+        <img
+          src="public/external/rectangle59271293-h7mm-200h.png"
+          alt="Rectangle59271293"
+          class="subscriptions-rectangle5927"
+        />
+        <img
+          src="public/external/rectangle59261293-ydqu-200h.png"
+          alt="Rectangle59261293"
+          class="subscriptions-rectangle5926"
+        />
+        <img
+          src="public/external/line241293-s0b.svg"
+          alt="Line241293"
+          class="subscriptions-line24"
+        />
+        <div class="subscriptions-group1000005192">
+          <div class="subscriptions-group1000005083">
+            <div class="subscriptions-line-rounded-less">
+              <div class="subscriptions-less">
+                <img
+                  src="public/external/vectori129-l3xp.svg"
+                  alt="VectorI129"
+                  class="subscriptions-vector11"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="subscriptions-checkbox10">
+            <div class="subscriptions-group10000045681">
+              <img
+                src="public/external/lineroundedchecki129-pjj.svg"
+                alt="LineRoundedCheckI129"
+                class="subscriptions-line-rounded-check1"
+              />
+            </div>
+          </div>
+          <div class="subscriptions-checkbox11">
+            <img
+              src="public/external/rectangle5912i129-bu9-200h.png"
+              alt="Rectangle5912I129"
+              class="subscriptions-rectangle59121"
+            />
+          </div>
+          <div class="subscriptions-checkbox12">
+            <div class="subscriptions-group10000045682">
+              <img
+                src="public/external/lineroundedchecki129-mt4t.svg"
+                alt="LineRoundedCheckI129"
+                class="subscriptions-line-rounded-check2"
+              />
+            </div>
+          </div>
+          <div class="subscriptions-checkbox13">
+            <img
+              src="public/external/rectangle5912i129-es1-200h.png"
+              alt="Rectangle5912I129"
+              class="subscriptions-rectangle59122"
+            />
+          </div>
+          <div class="subscriptions-checkbox14">
+            <div class="subscriptions-group10000045683">
+              <img
+                src="public/external/lineroundedchecki129-tm4y.svg"
+                alt="LineRoundedCheckI129"
+                class="subscriptions-line-rounded-check3"
+              />
+            </div>
+          </div>
+          <div class="subscriptions-checkbox15">
+            <img
+              src="public/external/rectangle5912i129-s6oh-200h.png"
+              alt="Rectangle5912I129"
+              class="subscriptions-rectangle59123"
+            />
+          </div>
+          <div class="subscriptions-checkbox16">
+            <div class="subscriptions-group10000045684">
+              <img
+                src="public/external/lineroundedchecki129-s4u.svg"
+                alt="LineRoundedCheckI129"
+                class="subscriptions-line-rounded-check4"
+              />
+            </div>
+          </div>
+          <div class="subscriptions-checkbox17">
+            <img
+              src="public/external/rectangle5912i129-rqo-200h.png"
+              alt="Rectangle5912I129"
+              class="subscriptions-rectangle59124"
+            />
+          </div>
+          <div class="subscriptions-checkbox18">
+            <img
+              src="public/external/rectangle5912i129-a2q-200h.png"
+              alt="Rectangle5912I129"
+              class="subscriptions-rectangle59125"
+            />
+          </div>
+          <div class="subscriptions-checkbox19">
+            <img
+              src="public/external/rectangle5912i129-ksfk-200h.png"
+              alt="Rectangle5912I129"
+              class="subscriptions-rectangle59126"
+            />
+          </div>
+          <div class="subscriptions-checkbox20">
+            <img
+              src="public/external/rectangle5912i129-t2ib-200h.png"
+              alt="Rectangle5912I129"
+              class="subscriptions-rectangle59127"
+            />
+          </div>
+        </div>
+        <div class="subscriptions-group1000005195">
+          <div class="subscriptions-group1000005148">
+            <div class="subscriptions-group1000005194">
+              <div class="subscriptions-master-link1">
+                <div class="subscriptions-frame10000046521">
+                  <div class="subscriptions-letsiconsdatefill">
+                    <div class="subscriptions-group1">
+                      <img
+                        src="public/external/vector1293-wa9s.svg"
+                        alt="Vector1293"
+                        class="subscriptions-vector12"
+                      />
+                      <img
+                        src="public/external/vector1293-qo9r.svg"
+                        alt="Vector1293"
+                        class="subscriptions-vector13"
+                      />
+                    </div>
+                  </div>
+                  <span class="subscriptions-text26">EXPIRY DATE</span>
+                </div>
+              </div>
+              <div class="subscriptions-group10000046511">
+                <img
+                  src="public/external/lineroundedchevronright1293-znti.svg"
+                  alt="LineRoundedChevronRight1293"
+                  class="subscriptions-line-rounded-chevron-right1"
+                />
+                <img
+                  src="public/external/lineroundedchevronright1293-ktft.svg"
+                  alt="LineRoundedChevronRight1293"
+                  class="subscriptions-line-rounded-chevron-right2"
+                />
+              </div>
+            </div>
+          </div>
+          <span class="subscriptions-text27">2024-Oct-28 12:12:00</span>
+          <span class="subscriptions-text28">2024-Oct-28 12:12:00</span>
+          <span class="subscriptions-text29">2024-Oct-28 12:12:00</span>
+          <span class="subscriptions-text30">2024-Oct-28 12:12:00</span>
+          <span class="subscriptions-text31">2024-Oct-28 12:12:00</span>
+          <span class="subscriptions-text32">2024-Oct-28 12:12:00</span>
+          <span class="subscriptions-text33">2024-Oct-28 12:12:00</span>
+          <span class="subscriptions-text34">2024-Oct-28 12:12:00</span>
+          <span class="subscriptions-text35">2024-Oct-28 12:12:00</span>
+          <span class="subscriptions-text36">2024-Oct-28 12:12:00</span>
+          <span class="subscriptions-text37">2024-Oct-28 12:12:00</span>
+        </div>
+        <div class="subscriptions-group1000005191">
+          <div class="subscriptions-master-link2">
+            <div class="subscriptions-frame10000046522">
+              <div class="subscriptions-custome-icon-users-icon1">
+                <div class="subscriptions-group10000044511">
+                  <img
+                    src="public/external/rectangle5911i129-m05l-200h.png"
+                    alt="Rectangle5911I129"
+                    class="subscriptions-rectangle59111"
+                  />
+                  <img
+                    src="public/external/vectori129-85a.svg"
+                    alt="VectorI129"
+                    class="subscriptions-vector14"
+                  />
+                </div>
+              </div>
+              <span class="subscriptions-text38">USER ID</span>
+            </div>
+            <div class="subscriptions-group10000046512">
+              <img
+                src="public/external/lineroundedchevronrighti129-zd5w.svg"
+                alt="LineRoundedChevronRightI129"
+                class="subscriptions-line-rounded-chevron-right3"
+              />
+              <img
+                src="public/external/lineroundedchevronrighti129-7y1.svg"
+                alt="LineRoundedChevronRightI129"
+                class="subscriptions-line-rounded-chevron-right4"
+              />
+            </div>
+          </div>
+          <span class="subscriptions-text39">225388</span>
+          <span class="subscriptions-text40">225388</span>
+          <span class="subscriptions-text41">225388</span>
+          <span class="subscriptions-text42">225388</span>
+          <span class="subscriptions-text43">225388</span>
+          <span class="subscriptions-text44">225388</span>
+          <span class="subscriptions-text45">225388</span>
+          <span class="subscriptions-text46">225388</span>
+          <span class="subscriptions-text47">225388</span>
+          <span class="subscriptions-text48">225388</span>
+          <span class="subscriptions-text49">225388</span>
+        </div>
+        <div class="subscriptions-group1000005188">
+          <div class="subscriptions-master-link3">
+            <div class="subscriptions-frame10000046523">
+              <div class="subscriptions-mingcuteaifill">
+                <div class="subscriptions-group3">
+                  <img
+                    src="public/external/vector1293-d51.svg"
+                    alt="Vector1293"
+                    class="subscriptions-vector15"
+                  />
+                </div>
+              </div>
+              <span class="subscriptions-text50">Ai.MODULES</span>
+            </div>
+          </div>
+          <span class="subscriptions-text51">Admin</span>
+          <span class="subscriptions-text52">Admin</span>
+          <span class="subscriptions-text53">Admin</span>
+          <span class="subscriptions-text54">Admin</span>
+          <span class="subscriptions-text55">Admin</span>
+          <span class="subscriptions-text56">Admin</span>
+          <span class="subscriptions-text57">Admin</span>
+          <span class="subscriptions-text58">Admin</span>
+          <span class="subscriptions-text59">Admin</span>
+          <span class="subscriptions-text60">Admin</span>
+          <span class="subscriptions-text61">Admin</span>
+        </div>
+        <div class="subscriptions-group1000005196">
+          <div class="subscriptions-master-link4">
+            <div class="subscriptions-frame10000046524">
+              <img
+                src="public/external/fluentcameradome16filled1293-wci9.svg"
+                alt="fluentcameradome16filled1293"
+                class="subscriptions-fluentcameradome16filled"
+              />
+              <span class="subscriptions-text62">CAMERA COUNT</span>
+            </div>
+          </div>
+          <span class="subscriptions-text63">50</span>
+          <span class="subscriptions-text64">50</span>
+          <span class="subscriptions-text65">50</span>
+          <span class="subscriptions-text66">50</span>
+          <span class="subscriptions-text67">50</span>
+          <span class="subscriptions-text68">50</span>
+          <span class="subscriptions-text69">50</span>
+          <span class="subscriptions-text70">50</span>
+          <span class="subscriptions-text71">50</span>
+          <span class="subscriptions-text72">50</span>
+          <span class="subscriptions-text73">50</span>
+        </div>
+        <div class="subscriptions-group1000005190">
+          <div class="subscriptions-master-link5">
+            <div class="subscriptions-frame10000046525">
+              <div class="subscriptions-custome-icon-users-icon2">
+                <div class="subscriptions-group10000044512">
+                  <img
+                    src="public/external/rectangle5911i129-88rs-200h.png"
+                    alt="Rectangle5911I129"
+                    class="subscriptions-rectangle59112"
+                  />
+                  <img
+                    src="public/external/vectori129-3ozg.svg"
+                    alt="VectorI129"
+                    class="subscriptions-vector16"
+                  />
+                </div>
+              </div>
+              <span class="subscriptions-text74">MACHINE ID</span>
+            </div>
+          </div>
+          <span class="subscriptions-text75">239GB-00912U-02212123</span>
+          <span class="subscriptions-text76">239GB-00912U-02212123</span>
+          <span class="subscriptions-text77">239GB-00912U-02212123</span>
+          <span class="subscriptions-text78">239GB-00912U-02212123</span>
+          <span class="subscriptions-text79">239GB-00912U-02212123</span>
+          <span class="subscriptions-text80">239GB-00912U-02212123</span>
+          <span class="subscriptions-text81">239GB-00912U-02212123</span>
+          <span class="subscriptions-text82">239GB-00912U-02212123</span>
+          <span class="subscriptions-text83">239GB-00912U-02212123</span>
+          <span class="subscriptions-text84">239GB-00912U-02212123</span>
+          <span class="subscriptions-text85">239GB-00912U-02212123</span>
+        </div>
+        <div class="subscriptions-group1000005197">
+          <div class="subscriptions-master-link6">
+            <div class="subscriptions-frame10000046526">
+              <span class="subscriptions-text86">ACTIVE</span>
+            </div>
+            <div class="subscriptions-group10000046513">
+              <img
+                src="public/external/lineroundedchevronrighti129-gmrm.svg"
+                alt="LineRoundedChevronRightI129"
+                class="subscriptions-line-rounded-chevron-right5"
+              />
+              <img
+                src="public/external/lineroundedchevronrighti129-ye4p.svg"
+                alt="LineRoundedChevronRightI129"
+                class="subscriptions-line-rounded-chevron-right6"
+              />
+            </div>
+          </div>
+          <div class="subscriptions-letsiconscheckfill10">
+            <img
+              src="public/external/ellipse911293-z67-200h.png"
+              alt="Ellipse911293"
+              class="subscriptions-ellipse9110"
+            />
+          </div>
+          <div class="subscriptions-letsiconscheckfill11">
+            <img
+              src="public/external/ellipse911293-ik99-200h.png"
+              alt="Ellipse911293"
+              class="subscriptions-ellipse9111"
+            />
+          </div>
+          <div class="subscriptions-letsiconscheckfill12">
+            <img
+              src="public/external/ellipse911293-tujs-200h.png"
+              alt="Ellipse911293"
+              class="subscriptions-ellipse9112"
+            />
+          </div>
+          <div class="subscriptions-letsiconscheckfill13">
+            <img
+              src="public/external/ellipse911293-sg98-200h.png"
+              alt="Ellipse911293"
+              class="subscriptions-ellipse9113"
+            />
+          </div>
+          <div class="subscriptions-letsiconscheckfill14">
+            <img
+              src="public/external/ellipse911293-88rm-200h.png"
+              alt="Ellipse911293"
+              class="subscriptions-ellipse9114"
+            />
+          </div>
+          <div class="subscriptions-letsiconscheckfill15">
+            <img
+              src="public/external/ellipse911293-o458-200h.png"
+              alt="Ellipse911293"
+              class="subscriptions-ellipse9115"
+            />
+          </div>
+          <div class="subscriptions-letsiconscheckfill16">
+            <img
+              src="public/external/ellipse911293-izub-200h.png"
+              alt="Ellipse911293"
+              class="subscriptions-ellipse9116"
+            />
+          </div>
+          <div class="subscriptions-letsiconscheckfill17">
+            <img
+              src="public/external/ellipse911293-kvx-200h.png"
+              alt="Ellipse911293"
+              class="subscriptions-ellipse9117"
+            />
+          </div>
+          <div class="subscriptions-letsiconscheckfill18">
+            <img
+              src="public/external/ellipse911293-9kiu-200h.png"
+              alt="Ellipse911293"
+              class="subscriptions-ellipse9118"
+            />
+          </div>
+          <div class="subscriptions-letsiconscheckfill19">
+            <img
+              src="public/external/ellipse911293-t025-200h.png"
+              alt="Ellipse911293"
+              class="subscriptions-ellipse9119"
+            />
+          </div>
+          <div class="subscriptions-letsiconscheckfill20">
+            <img
+              src="public/external/ellipse911293-gkaj-200h.png"
+              alt="Ellipse911293"
+              class="subscriptions-ellipse9120"
+            />
+          </div>
+        </div>
+        <div class="subscriptions-group1000005187">
+          <div class="subscriptions-master-link7">
+            <div class="subscriptions-frame10000046527">
+              <img
+                src="public/external/customeiconcheckiconi129-h4hi.svg"
+                alt="CustomeIconCheckIconI129"
+                class="subscriptions-custome-icon-check-icon"
+              />
+              <span class="subscriptions-text87">ACTIONS</span>
+            </div>
+            <div class="subscriptions-group10000046514">
+              <img
+                src="public/external/lineroundedchevronrighti129-37ce.svg"
+                alt="LineRoundedChevronRightI129"
+                class="subscriptions-line-rounded-chevron-right7"
+              />
+              <img
+                src="public/external/lineroundedchevronrighti129-2e68.svg"
+                alt="LineRoundedChevronRightI129"
+                class="subscriptions-line-rounded-chevron-right8"
+              />
+            </div>
+          </div>
+          <div class="subscriptions-group100000515910">
+            <div class="subscriptions-group100000506510">
+              <div class="subscriptions-group100000506110">
+                <div class="subscriptions-companies-facebook10"></div>
+              </div>
+              <img
+                src="public/external/materialsymbolsedit1293-43ql.svg"
+                alt="materialsymbolsedit1293"
+                class="subscriptions-materialsymbolsedit10"
+              />
+            </div>
+            <div class="subscriptions-group100000515810">
+              <div class="subscriptions-group100000506111">
+                <div class="subscriptions-companies-facebook11"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1293-0sn.svg"
+                alt="iconoircancel1293"
+                class="subscriptions-iconoircancel10"
+              />
+            </div>
+          </div>
+          <div class="subscriptions-group100000515911">
+            <div class="subscriptions-group100000506511">
+              <div class="subscriptions-group100000506112">
+                <div class="subscriptions-companies-facebook12"></div>
+              </div>
+              <img
+                src="public/external/materialsymbolsedit1293-zsfa.svg"
+                alt="materialsymbolsedit1293"
+                class="subscriptions-materialsymbolsedit11"
+              />
+            </div>
+            <div class="subscriptions-group100000515811">
+              <div class="subscriptions-group100000506113">
+                <div class="subscriptions-companies-facebook13"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1293-zks.svg"
+                alt="iconoircancel1293"
+                class="subscriptions-iconoircancel11"
+              />
+            </div>
+          </div>
+          <div class="subscriptions-group100000515912">
+            <div class="subscriptions-group100000506512">
+              <div class="subscriptions-group100000506114">
+                <div class="subscriptions-companies-facebook14"></div>
+              </div>
+              <img
+                src="public/external/materialsymbolsedit1293-lbb.svg"
+                alt="materialsymbolsedit1293"
+                class="subscriptions-materialsymbolsedit12"
+              />
+            </div>
+            <div class="subscriptions-group100000515812">
+              <div class="subscriptions-group100000506115">
+                <div class="subscriptions-companies-facebook15"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1293-e9xp.svg"
+                alt="iconoircancel1293"
+                class="subscriptions-iconoircancel12"
+              />
+            </div>
+          </div>
+          <div class="subscriptions-group100000515913">
+            <div class="subscriptions-group100000506513">
+              <div class="subscriptions-group100000506116">
+                <div class="subscriptions-companies-facebook16"></div>
+              </div>
+              <img
+                src="public/external/materialsymbolsedit1293-8wzl.svg"
+                alt="materialsymbolsedit1293"
+                class="subscriptions-materialsymbolsedit13"
+              />
+            </div>
+            <div class="subscriptions-group100000515813">
+              <div class="subscriptions-group100000506117">
+                <div class="subscriptions-companies-facebook17"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1293-gpn.svg"
+                alt="iconoircancel1293"
+                class="subscriptions-iconoircancel13"
+              />
+            </div>
+          </div>
+          <div class="subscriptions-group100000515914">
+            <div class="subscriptions-group100000506514">
+              <div class="subscriptions-group100000506118">
+                <div class="subscriptions-companies-facebook18"></div>
+              </div>
+              <img
+                src="public/external/materialsymbolsedit1293-85.svg"
+                alt="materialsymbolsedit1293"
+                class="subscriptions-materialsymbolsedit14"
+              />
+            </div>
+            <div class="subscriptions-group100000515814">
+              <div class="subscriptions-group100000506119">
+                <div class="subscriptions-companies-facebook19"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1293-tw8n.svg"
+                alt="iconoircancel1293"
+                class="subscriptions-iconoircancel14"
+              />
+            </div>
+          </div>
+          <div class="subscriptions-group100000515915">
+            <div class="subscriptions-group100000506515">
+              <div class="subscriptions-group100000506120">
+                <div class="subscriptions-companies-facebook20"></div>
+              </div>
+              <img
+                src="public/external/materialsymbolsedit1293-u4.svg"
+                alt="materialsymbolsedit1293"
+                class="subscriptions-materialsymbolsedit15"
+              />
+            </div>
+            <div class="subscriptions-group100000515815">
+              <div class="subscriptions-group100000506121">
+                <div class="subscriptions-companies-facebook21"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1293-pxod.svg"
+                alt="iconoircancel1293"
+                class="subscriptions-iconoircancel15"
+              />
+            </div>
+          </div>
+          <div class="subscriptions-group100000515916">
+            <div class="subscriptions-group100000506516">
+              <div class="subscriptions-group100000506122">
+                <div class="subscriptions-companies-facebook22"></div>
+              </div>
+              <img
+                src="public/external/materialsymbolsedit1293-96tk.svg"
+                alt="materialsymbolsedit1293"
+                class="subscriptions-materialsymbolsedit16"
+              />
+            </div>
+            <div class="subscriptions-group100000515816">
+              <div class="subscriptions-group100000506123">
+                <div class="subscriptions-companies-facebook23"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1293-v0or.svg"
+                alt="iconoircancel1293"
+                class="subscriptions-iconoircancel16"
+              />
+            </div>
+          </div>
+          <div class="subscriptions-group100000515917">
+            <div class="subscriptions-group100000506517">
+              <div class="subscriptions-group100000506124">
+                <div class="subscriptions-companies-facebook24"></div>
+              </div>
+              <img
+                src="public/external/materialsymbolsedit1293-a2ag.svg"
+                alt="materialsymbolsedit1293"
+                class="subscriptions-materialsymbolsedit17"
+              />
+            </div>
+            <div class="subscriptions-group100000515817">
+              <div class="subscriptions-group100000506125">
+                <div class="subscriptions-companies-facebook25"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1293-de1.svg"
+                alt="iconoircancel1293"
+                class="subscriptions-iconoircancel17"
+              />
+            </div>
+          </div>
+          <div class="subscriptions-group100000515918">
+            <div class="subscriptions-group100000506518">
+              <div class="subscriptions-group100000506126">
+                <div class="subscriptions-companies-facebook26"></div>
+              </div>
+              <img
+                src="public/external/materialsymbolsedit1293-4mi7.svg"
+                alt="materialsymbolsedit1293"
+                class="subscriptions-materialsymbolsedit18"
+              />
+            </div>
+            <div class="subscriptions-group100000515818">
+              <div class="subscriptions-group100000506127">
+                <div class="subscriptions-companies-facebook27"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1293-2zw9.svg"
+                alt="iconoircancel1293"
+                class="subscriptions-iconoircancel18"
+              />
+            </div>
+          </div>
+          <div class="subscriptions-group100000515919">
+            <div class="subscriptions-group100000506519">
+              <div class="subscriptions-group100000506128">
+                <div class="subscriptions-companies-facebook28"></div>
+              </div>
+              <img
+                src="public/external/materialsymbolsedit1293-wg4.svg"
+                alt="materialsymbolsedit1293"
+                class="subscriptions-materialsymbolsedit19"
+              />
+            </div>
+            <div class="subscriptions-group100000515819">
+              <div class="subscriptions-group100000506129">
+                <div class="subscriptions-companies-facebook29"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1293-dt2u.svg"
+                alt="iconoircancel1293"
+                class="subscriptions-iconoircancel19"
+              />
+            </div>
+          </div>
+          <div class="subscriptions-group100000515920">
+            <div class="subscriptions-group100000506520">
+              <div class="subscriptions-group100000506130">
+                <div class="subscriptions-companies-facebook30"></div>
+              </div>
+              <img
+                src="public/external/materialsymbolsedit1293-th8.svg"
+                alt="materialsymbolsedit1293"
+                class="subscriptions-materialsymbolsedit20"
+              />
+            </div>
+            <div class="subscriptions-group100000515820">
+              <div class="subscriptions-group100000506131">
+                <div class="subscriptions-companies-facebook31"></div>
+              </div>
+              <img
+                src="public/external/iconoircancel1293-w4.svg"
+                alt="iconoircancel1293"
+                class="subscriptions-iconoircancel20"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="subscriptions-group1000005184">
+          <button class="subscriptions-primary-button1"></button>
+          <button class="subscriptions-master-primary-button1">
+            <span class="subscriptions-text88">Delete All</span>
+            <div class="subscriptions-line-rounded-chevron-down2">
+              <div class="subscriptions-chevron2">
+                <img
+                  src="public/external/vectori129-nhi8.svg"
+                  alt="VectorI129"
+                  class="subscriptions-vector17"
+                />
+              </div>
+            </div>
+          </button>
+
+          <button class="subscriptions-primary-button2"></button>
+          <button class="subscriptions-master-primary-button2">
+            <span class="subscriptions-text89">Add Subscription</span>
+            <div class="subscriptions-line-rounded-chevron-down3">
+              <div class="subscriptions-chevron3">
+                <img
+                  src="public/external/vectori129-czrr.svg"
+                  alt="VectorI129"
+                  class="subscriptions-vector18"
+                />
+              </div>
+            </div>
+          </button>
+        </div>
+        <div class="subscriptions-pagination-v3">
+          <div class="subscriptions-control1">
+            <span class="subscriptions-text90">Prev</span>
+          </div>
+          <div class="subscriptions-page1"></div>
+          <div class="subscriptions-page2"></div>
+          <div class="subscriptions-page3"></div>
+          <div class="subscriptions-page4">
+            <span class="subscriptions-text91">...</span>
+          </div>
+          <div class="subscriptions-page5">
+            <span class="subscriptions-text92">10</span>
+          </div>
+          <div class="subscriptions-control2">
+            <span class="subscriptions-text93">Next</span>
+          </div>
+        </div>
+        <div class="subscriptions-input-content">
+          <div class="subscriptions-group1000005171">
+            <div class="subscriptions-input-icon-left">
+              <div class="subscriptions-search">
+                <img
+                  src="public/external/vectori129-7qia.svg"
+                  alt="VectorI129"
+                  class="subscriptions-vector19"
+                />
+                <img
+                  src="public/external/vectori129-gdl.svg"
+                  alt="VectorI129"
+                  class="subscriptions-vector20"
+                />
+              </div>
+            </div>
+            <span class="subscriptions-text94">Search for...</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
